@@ -44,7 +44,7 @@ development:
 
     # Raise an error when performing a #find and the document is not found.
     # (default: true)
-    # raise_not_found_error: true
+    raise_not_found_error: false
 
     # Raise an error when defining a scope with the same name as an
     # existing method. (default: false)
@@ -67,3 +67,6 @@ test:
         # low amounts for fast failures.
         max_retries: 1
         retry_interval: 0
+
+
+# @all as a followup to Aaron's advice about the raise_not_found_error, make sure to set that option to false for your production environment in the mongoid.yml file as well. Otherwise you will get 404 errors when you deploy to heroku!

@@ -1,0 +1,21 @@
+<h1>Join!</h1>
+
+<ul>
+<% @user.errors.full_messages.each do |message| %>
+<li><%= message %></li>
+<% end %>
+</ul>
+
+<%= form_for @user do |f| %>
+
+	<p>First Name:</p> <%= f.text_field :first_name %><br>
+	<p>Last Name:</p> <%= f.text_field :last_name %><br>
+	<p>Email:</p> <%= f.text_field :email %><br>
+	<p>Password:</p> <%= f.password_field :password %><br>
+	<p>Please confirm your password:</p> <%= f.password_field :password_confirmation %><br><br>
+
+	<%= f.submit "Join!" %>
+
+	<p>After creating an account, you will need to login.</p>
+
+<% end %>
