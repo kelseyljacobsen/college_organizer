@@ -7,6 +7,9 @@ class User
   field :email, type: String
   field :password_digest, type: String
 
+  has_one :list
+  #not sure
+
   has_many :user_safety_schools
   accepts_nested_attributes_for :user_safety_schools 
   has_many :user_reach_schools
@@ -25,7 +28,7 @@ class User
     List.find(list_ids)
   end 
 
-  def lists
+  def list_ids
     ret = []
     self.user_lists.each do |r|
       ret << r.list_id if r.list_id

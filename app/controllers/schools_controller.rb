@@ -7,6 +7,9 @@ class SchoolsController < ApplicationController
 
 	def show
 		@school = School.find(params[:id])
+		@lists = List.all
+		# @lists = List.find(@user.list_ids)
+		# @user = User.find(session[:user_id])
 	end 
 
 	def new
