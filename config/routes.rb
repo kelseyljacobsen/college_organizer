@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 
   resources :users
   resources :schools
+  resources :lists
   resources :user_safety_schools
   resources :user_target_schools
   resources :user_reach_schools
