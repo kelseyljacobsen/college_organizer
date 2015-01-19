@@ -11,6 +11,11 @@ Rails.application.routes.draw do
 
   get '/profile' => 'users#profile', as: :profile
 
+
   resources :users
+  resources :schools
+  resources :user_safety_schools
+  resources :user_target_schools
+  resources :user_reach_schools
 
 end

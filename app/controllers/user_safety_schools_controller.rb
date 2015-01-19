@@ -1,0 +1,2 @@
+class UserSafetySchoolsController < ApplicationController
+end

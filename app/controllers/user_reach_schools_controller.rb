@@ -1,0 +1,2 @@
+class UserReachSchoolsController < ApplicationController
+end

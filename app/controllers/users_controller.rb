@@ -16,6 +16,10 @@ class UsersController < ApplicationController
 	end 
 
 	def profile
+		@user = User.find(current_user)
+		@my_safety_schools = UserSafetySchool.all
+		@my_target_schools = UserTargetSchool.all
+		@my_reach_schools = UserReachSchool.all
 	end 
 
 end 

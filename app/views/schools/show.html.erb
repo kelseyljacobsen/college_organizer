@@ -1,0 +1,26 @@
+<h1><%= @school.name %></h1>
+
+<%= form_for(current_user) do |f| %>
+
+	<div class="field">
+		<%= f.label "Add to My Lists" %><br>
+		<%= f.collection_check_boxes(:list_ids, List.order("name ASC"), :id, :name) do |b| %>
+
+			<%= b.label { b.check_box } %>
+			<%= b.label { b.text } %>
+			<br>
+			<% end %>
+
+	</div>
+
+	<div class="field">
+		<%= f.hidden_field :user_id, value: current_user.id %>
+	</div>
+
+	<div class="actions">
+		<%= f.submit @button_face, :class => "btn btn-primary" %>
+	</div>
+
+<br>
+
+<% end %>
