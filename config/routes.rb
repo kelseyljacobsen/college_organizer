@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get '/profile' => 'users#profile', as: :profile
 
+  post '/schools' => 'users#add_school'
+
 
   resources :users
   resources :schools

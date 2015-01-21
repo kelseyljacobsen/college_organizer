@@ -1,2 +1,0 @@
-class UserSafetySchoolsController < ApplicationController
-end

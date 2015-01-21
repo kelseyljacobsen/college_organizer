@@ -1,2 +1,0 @@
-class UserTargetSchoolsController < ApplicationController
-end

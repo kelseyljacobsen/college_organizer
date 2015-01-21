@@ -1,5 +1,9 @@
 <h1>Schools List</h1>
 
 <% @schools.each do |s| %>
-	<%= s.name %> <%= link_to "View School", school_path(s) %><br>
+	<%= s.name %> <%= link_to "View School", school_path(s) %> <br>
+	<%= button_to("Safety School", url: user_path(current_user), method: :post, params: {list:"safety", school:s} ) %>
+	<%= button_to("Target School", url: user_path(current_user), method: :post, params: {list:"target", school:s} ) %>
+	<%= button_to("Reach School", url: user_path(current_user), method: :post, params: {list:"reach", school:s} ) %>
 	<% end %>
+

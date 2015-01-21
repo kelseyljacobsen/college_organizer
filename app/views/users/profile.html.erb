@@ -3,21 +3,25 @@
 <%= link_to "All Schools", schools_path %> 
 
 <h2>Safety Schools</h2>
-	<% @my_safety_schools.each do |s| %>
-			<%= s.name %>
-	<% end %>
+
+<% @user.safety_schools.each do |school_id| %>
+ 	<% school = School.find(school_id) %>
+ 	<%= school.name %>
+ 	<% end %>
 
 <h2>Target Schools</h2>
-	<% @my_target_schools.each do |s| %>
-			<%= s.name %>
-	<% end %>
+  <% @user.target_schools.each do |school_id| %>
+ 	<% school = School.find(school_id) %>
+ 	<%= school.name %>
+ 	<% end %>
 
 <h2>Reach Schools</h2>
-	<% @my_reach_schools.each do |s| %>
-			<%= s.name %>
-	<% end %>
+  <% @user.reach_schools.each do |school_id| %>
+ 	<% school = School.find(school_id) %>
+ 	<%= school.name %>
+ 	<% end %> 
 
- <%# @user.safety_schools.each do |school_id| %>
- 	<%# school = @schools.find(school_id) %>
- 	<%#= school.name %>
-	<%#= school.location %>
+
+	<%# @my_safety_schools.each do |s| %>
+			<%#= s.name %>
+	<%# end %> 
