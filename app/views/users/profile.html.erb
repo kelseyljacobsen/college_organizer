@@ -3,25 +3,22 @@
 <%= link_to "All Schools", schools_path %> 
 
 <h2>Safety Schools</h2>
-
 <% @user.safety_schools.each do |school_id| %>
  	<% school = School.find(school_id) %>
  	<%= school.name %>
+ 	<%= button_to "Delete School", delete_school_path(id: school_id, list: "safety") %><br>
  	<% end %>
 
 <h2>Target Schools</h2>
   <% @user.target_schools.each do |school_id| %>
  	<% school = School.find(school_id) %>
- 	<%= school.name %>
+ 	<%= school.name %><br>
  	<% end %>
 
 <h2>Reach Schools</h2>
   <% @user.reach_schools.each do |school_id| %>
  	<% school = School.find(school_id) %>
- 	<%= school.name %>
+ 	<%= school.name %><br>
  	<% end %> 
 
 
-	<%# @my_safety_schools.each do |s| %>
-			<%#= s.name %>
-	<%# end %> 

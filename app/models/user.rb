@@ -6,6 +6,7 @@ class User
   field :last_name, type: String
   field :email, type: String
   field :password_digest, type: String
+  # field :role, type: String
 
   field :safety_schools, type: Array
   field :target_schools, type: Array

@@ -21,3 +21,10 @@
 	</div>
 </body>
 </html>
+
+
+<%# if current_user %>
+<!-- Logged in as --> <%#= current_user.first_name + ' ' + current_user.last_name %> <%# if current_user.role == 'admin' %><!-- |  --><%#= link_to "Admin Login", admins_path %> <%# end %> <!-- | --> <%#= link_to "Logout", :logout %>
+<%# else %>
+<%#= link_to "Login", :login %><!--  |  --><%#= link_to "SignUp", :signup %>
+<%# end %>

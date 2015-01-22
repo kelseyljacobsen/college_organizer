@@ -23,9 +23,7 @@ class UsersController < ApplicationController
 		@user = User.find(current_user)
 	
 
-		# @my_safety_schools = UserSafetySchool.all
-		# @my_target_schools = UserTargetSchool.all
-		# @my_reach_schools = UserReachSchool.all
+
 	end 
 
 	def update
@@ -35,11 +33,11 @@ class UsersController < ApplicationController
 	def add_school
 		@user = User.find(current_user)
 		if params[:list] == "safety"
-			@user.safety_schools.push(params[:school])
+			@user.safety_schools.push(params[:id])
 		elsif params[:list] == "target"
-			@user.target_schools.push(params[:school])
+			@user.target_schools.push(params[:id])
 		elsif params[:list] == "reach"
-			@user.reach_schools.push(params[:school])
+			@user.reach_schools.push(params[:id])
 		end 
 
 		if @user.save
@@ -47,4 +45,21 @@ class UsersController < ApplicationController
 		end
 	end
 
+	def delete_school
+		@user = User.find(current_user)
+		if params[:list] == "safety"
+			@user.safety_schools.delete(params[:id])
+		end 
+
+		if @user.save
+			redirect_to profile_path
+		end 
+	end 
+
+
+	# def destroy
+	# 	@bean = Bean.find(params[:id])
+	# 	@bean.destroy
+	# 		redirect_to beans_path
+	# end 
 end 
