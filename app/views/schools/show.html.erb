@@ -1,16 +1,36 @@
 <h1><%= @school.name %></h1>
 
 <div>
- <p><%= @school.city %></p>
+ 	<p><%= @school.city %>, <%= @school.state %></p>
+ 	<p><%= @school.website %></p><br>
+ 	<p>Total Applicants: <%= @school.total_applicants %></p>
+ 	<p>Percent Admitted: <%= @school.percent_admitted %></p>
+ 	<p>Percent Attending: <%= @school.percent_attending %></p>
+ 	<p>SAT Critical Reading: <%= @school.range_sat_cr %></p>
+ 	<p>SAT Math: <%= @school.range_sat_math %></p>
+ 	<p>SAT Writing: <%= @school.range_sat_writing %></p>
+ 	<p>ACT Composite: <%= @school.range_act_comp %></p>
+ 	<p>Average High School GPA: <%= @school.average_hs_gpa %></p>
+ 	<p>Superscore SAT: <%= @school.superscore_sat %></p>
+ 	<p>Superscore ACT: <%= @school.superscore_act %></p>
 
-
- 	<%= button_to "Safety School", add_school_path(id: @school.id, list: "safety") %>
-	<%= button_to "Target School", add_school_path(id: @school.id, list: "target") %>
-	<%= button_to "Reach School", add_school_path(id: @school.id, list: "reach") %>
-
-
+<div class="btn-group" role="group">
+	 	<%= link_to "Safety School", add_school_path(id: @school.id, list: "safety"), class: "btn btn-default" %>
+		<%= link_to "Target School", add_school_path(id: @school.id, list: "target"), class: "btn btn-default" %>
+		<%= link_to "Reach School", add_school_path(id: @school.id, list: "reach"), class: "btn btn-default" %>
+</div>
 
 </div>
+
+
+
+
+<br>
+
+<div>
+	<%= link_to "Back to my profile", profile_path %>
+</div>
+
 <%#= form_for(current_user) do |f| %>
 
 	<!-- <div class="field"> -->

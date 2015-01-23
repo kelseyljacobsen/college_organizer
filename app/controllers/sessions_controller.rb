@@ -7,6 +7,7 @@ def create
 	user = User.find_by(email: params[:user][:email]) # this doesn't have a view, so we don't need an @ symbol in front of user
 
 	if user && user.authenticate(params[:user][:password]) #user exists and password matches that user's password 
+		reset_session
 		session[:user_id] = user.id.to_s #guarantees that the session[:user_id] will always be a string of the user's id
 		redirect_to profile_path
 	else

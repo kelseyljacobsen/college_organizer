@@ -21,34 +21,57 @@ class UsersController < ApplicationController
 
 	def profile
 		@user = User.find(current_user)
-	
-
-
 	end 
 
 	def update
-		render plain: params
+	
 	end 
 
 	def add_school
 		@user = User.find(current_user)
-		if params[:list] == "safety"
-			@user.safety_schools.push(params[:id])
-		elsif params[:list] == "target"
-			@user.target_schools.push(params[:id])
-		elsif params[:list] == "reach"
-			@user.reach_schools.push(params[:id])
+		school = params[:id]
+		school_name = School.find(params[:id]).name
+		if params[:list] == "safety" && @user.safety_schools.exclude?(school) && @user.target_schools.exclude?(school) && @user.reach_schools.exclude?(school)
+			@user.safety_schools.push(school)
+			flash[:info] = "#{school_name} added as a safety school!" 
+
+		elsif params[:list] == "target" && @user.safety_schools.exclude?(school) && @user.target_schools.exclude?(school) && @user.reach_schools.exclude?(school)
+			@user.target_schools.push(school)
+			flash[:info] = "#{school_name} added as a target school!" 
+
+		elsif params[:list] == "reach" && @user.safety_schools.exclude?(school) && @user.target_schools.exclude?(school) && @user.reach_schools.exclude?(school)
+			@user.reach_schools.push(school)
+			flash[:info] = "#{school_name} added as a reach school!" 
+
+		elsif @user.safety_schools.include?(school) 
+			flash[:danger] = "#{school_name} is already included as a safety school!" 
+
+		elsif @user.target_schools.include?(school)
+			flash[:danger] = "#{school_name} is already included as a target school!"
+
+		elsif @user.reach_schools.include?(school)
+			flash[:danger] = "#{school_name} is already included as a reach school!"  
 		end 
 
 		if @user.save
 			redirect_to profile_path
-		end
+		end 
+
 	end
 
 	def delete_school
 		@user = User.find(current_user)
+		school = params[:id]
+		school_name = School.find(params[:id]).name
 		if params[:list] == "safety"
-			@user.safety_schools.delete(params[:id])
+			@user.safety_schools.delete(school)
+			flash[:info] = "#{school_name} deleted from list."
+		elsif params[:list] == "target"
+			@user.target_schools.delete(school)
+			flash[:info] = "#{school_name} deleted from list."
+		elsif params[:list] == "reach"
+			@user.reach_schools.delete(school)
+			flash[:info] = "#{school_name} deleted from list."
 		end 
 
 		if @user.save
@@ -56,10 +79,8 @@ class UsersController < ApplicationController
 		end 
 	end 
 
+	def show_school
+		school = params[:id]
+	end 
 
-	# def destroy
-	# 	@bean = Bean.find(params[:id])
-	# 	@bean.destroy
-	# 		redirect_to beans_path
-	# end 
 end 

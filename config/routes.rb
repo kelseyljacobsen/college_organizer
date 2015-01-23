@@ -11,16 +11,13 @@ Rails.application.routes.draw do
 
   get '/profile' => 'users#profile', as: :profile
 
-  post '/add_school/:id' => 'users#add_school', as: :add_school
+  get '/add_school/:id' => 'users#add_school', as: :add_school
 
-  post '/delete_school/:id' => 'users#delete_school', as: :delete_school
+  get '/delete_school/:id' => 'users#delete_school', as: :delete_school
 
+  post '/schools/:id' => 'schools#show', as: :school
 
   resources :users
   resources :schools
-  resources :lists
-  resources :user_safety_schools
-  resources :user_target_schools
-  resources :user_reach_schools
 
 end

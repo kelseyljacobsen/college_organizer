@@ -1,24 +1,41 @@
 <h1>My College List</h1>
 
+<% flash.each do |key, value| %>
+	<div class="alert alert-<%= key %>" role="alert">
+   	   <%= value %><br>
+	</div>
+<% end %>
+
+<br>
+
 <%= link_to "All Schools", schools_path %> 
 
 <h2>Safety Schools</h2>
 <% @user.safety_schools.each do |school_id| %>
  	<% school = School.find(school_id) %>
- 	<%= school.name %>
- 	<%= button_to "Delete School", delete_school_path(id: school_id, list: "safety") %><br>
+	<p><%= school.name %>
+		<%= link_to '', school_path(id: school_id, list: "safety"), title: "Click for school info", class: "glyphicon glyphicon-info-sign" %>
+	  	<%= link_to '', delete_school_path(id: school_id, list: "safety"), data: { confirm: "Are you sure you want to delete this school?" }, title: "Delete school from list", class: "glyphicon glyphicon-remove-circle" %> 
+  	</p>
+ 	<br>
  	<% end %>
 
 <h2>Target Schools</h2>
   <% @user.target_schools.each do |school_id| %>
  	<% school = School.find(school_id) %>
- 	<%= school.name %><br>
+ 	<p><%= school.name %>
+ 		<%= link_to '', school_path(id: school_id, list: "target"), title: "Click for school info", class: "glyphicon glyphicon-info-sign" %>
+	  	<%= link_to '', delete_school_path(id: school_id, list: "target"), data: { confirm: "Are you sure you want to delete this school?" }, title: "Delete school from list", class: "glyphicon glyphicon-remove-circle" %> 
+ 	</p>
  	<% end %>
 
 <h2>Reach Schools</h2>
   <% @user.reach_schools.each do |school_id| %>
  	<% school = School.find(school_id) %>
- 	<%= school.name %><br>
+ 	<p><%= school.name %>
+ 	 	<%= link_to '', school_path(id: school_id, list: "reach"), title: "Click for school info", class: "glyphicon glyphicon-info-sign" %>
+	  	<%= link_to '', delete_school_path(id: school_id, list: "reach"), data: { confirm: "Are you sure you want to delete this school?" }, title: "Delete school from list", class: "glyphicon glyphicon-remove-circle" %> 
+ 	</p>
  	<% end %> 
 
 
