@@ -1,23 +1,18 @@
 <h1>Login</h1>
 
-<form class="form-inline"
-<%= form_for :user, url: '/login' do |f| %> <!-- use a colon and not an @ bc we don't have a model -->
-
-<%= f.text_field :email, placeholder: 'Enter your email' %>
-<%= f.password_field :password, placeholder: 'Enter your password' %>
-<%= f.submit "Login" %>
-
+<% flash.each do |key, value| %>
+	<div class="alert alert-<%= key %>" role="alert">
+   	   <%= value %><br>
+	</div>
 <% end %>
 
+<div class="form-inline">
 
-<form class="form-inline has-feedback">
+	<%= form_for :user, url: '/login' do |f| %> 
 
-<%= form_tag('/schools', method:"get", class: "form-search" )do %> <!-- sending to same page it's on -->
-  <p><%= text_field_tag :search, nil, class: "form-control input-medium search-query" %>
-  <%= select_tag(:field, options_for_select(["name", "state"]), class: "form-control") %>
-  <%= button_tag(type: 'submit', class: "btn btn-default") do %>
-  		<span class="glyphicon glyphicon-search"></span> 
+		<%= f.text_field :email, placeholder: 'Enter your email', class: "form-control" %>
+		<%= f.password_field :password, placeholder: 'Enter your password', class: "form-control" %>
+		<%= f.submit "Login", class: "btn btn-default" %>
 	<% end %>
-<% end %></p>
 
-</form>
+</div>

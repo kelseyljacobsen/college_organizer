@@ -14,5 +14,6 @@ class School
   field :average_hs_gpa, type: Float
   field :superscore_sat, type: Boolean
   field :superscore_act, type: Boolean 
+  field :image_url, type: String
 
 end

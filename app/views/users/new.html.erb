@@ -1,19 +1,47 @@
 <h1>Join!</h1>
 
-<ul>
-<% @user.errors.full_messages.each do |message| %>
-<li><%= message %></li>
+<% flash.each do |key, value| %>
+	<div class="alert alert-<%= key %>" role="alert">
+   	   <%= value %><br>
+	</div>
 <% end %>
-</ul>
 
-<%= form_for @user do |f| %>
+<div class="form-group">
 
-	<p>First Name:</p> <%= f.text_field :first_name %><br>
-	<p>Last Name:</p> <%= f.text_field :last_name %><br>
-	<p>Email:</p> <%= f.text_field :email %><br>
-	<p>Password:</p> <%= f.password_field :password %><br>
-	<p>Please confirm your password:</p> <%= f.password_field :password_confirmation %><br><br>
+	<%= form_for @user do |f| %>
+	<div class="row">
+		<div class="col-xs-4">
+			<label for="first_name">First Name</label>
+				<%= f.text_field :first_name, class: "form-control", placeholder: "Enter your first name" %>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="col-xs-4">
+			<label for="last_name">Last Name</label>
+				<%= f.text_field :last_name, class: "form-control", placeholder: "Enter your last name" %>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="col-xs-4">
+			<label for="email">Email address</label>
+				<%= f.text_field :email, class: "form-control", placeholder: "Enter your email" %>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="col-xs-4">
+			<label for="email">Password</label>
+				<%= f.password_field :password, class: "form-control", placeholder: "Choose a password" %>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="col-xs-4">
+			<label for="password_combination">Password Confirmation</label>
+				<%= f.password_field :password_confirmation, class: "form-control", placeholder: "Enter your password once more" %>
+		</div>
+	</div><br>
+	<%= f.submit "Join!", class: "btn btn-default" %>
 
-	<%= f.submit "Join!" %>
+	<% end %>
 
-<% end %>
+</div>
+

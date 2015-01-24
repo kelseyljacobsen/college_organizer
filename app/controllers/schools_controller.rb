@@ -1,4 +1,5 @@
 class SchoolsController < ApplicationController
+	before_action :authorize
 
 	def index
 		if params[:search] && params[:search] != ''

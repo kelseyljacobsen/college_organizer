@@ -16,6 +16,9 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user #lets us access this method in our view files
 
+  def current_school
+  end 
+
   def authorize
   	redirect_to login_path unless current_user
   end 

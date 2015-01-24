@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+	before_action :authorize, except: [:new, :create]
+
 	def new
 		@user = User.new
 	end 
@@ -12,11 +14,13 @@ class UsersController < ApplicationController
 
 		if @user.save 
 			session[:user_id] = @user.id.to_s
+			flash[:info] = "Welcome! Start adding schools to your list!" 
 			redirect_to profile_path
 		else
+			flash[:danger] = @user.errors.full_messages.to_sentence
 			render :new
 		end 
-		
+
 	end 
 
 	def profile

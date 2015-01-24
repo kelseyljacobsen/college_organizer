@@ -1,53 +1,84 @@
-<h1><%= @school.name %></h1>
 
-<div>
- 	<p><%= @school.city %>, <%= @school.state %></p>
- 	<p><%= @school.website %></p><br>
- 	<p>Total Applicants: <%= @school.total_applicants %></p>
- 	<p>Percent Admitted: <%= @school.percent_admitted %></p>
- 	<p>Percent Attending: <%= @school.percent_attending %></p>
- 	<p>SAT Critical Reading: <%= @school.range_sat_cr %></p>
- 	<p>SAT Math: <%= @school.range_sat_math %></p>
- 	<p>SAT Writing: <%= @school.range_sat_writing %></p>
- 	<p>ACT Composite: <%= @school.range_act_comp %></p>
- 	<p>Average High School GPA: <%= @school.average_hs_gpa %></p>
- 	<p>Superscore SAT: <%= @school.superscore_sat %></p>
- 	<p>Superscore ACT: <%= @school.superscore_act %></p>
 
-<div class="btn-group" role="group">
-	 	<%= link_to "Safety School", add_school_path(id: @school.id, list: "safety"), class: "btn btn-default" %>
-		<%= link_to "Target School", add_school_path(id: @school.id, list: "target"), class: "btn btn-default" %>
-		<%= link_to "Reach School", add_school_path(id: @school.id, list: "reach"), class: "btn btn-default" %>
+<div class="jumbotron">
+	<h1><%= @school.name %></h1>
+	<p><%= @school.city %>, <%= @school.state %>  &nbsp; | &nbsp; <%= @school.website %></p>
 </div>
 
+<div class="center-buttons">
+	<div class="btn-group" role="group">
+	 	<%= link_to "Safety School", add_school_path(id: @school.id, list: "safety"), title: "Add to my safety schools",  class: "btn btn-default" %>
+		<%= link_to "Target School", add_school_path(id: @school.id, list: "target"), title: "Add to my target schools", class: "btn btn-default" %>
+		<%= link_to "Reach School", add_school_path(id: @school.id, list: "reach"), title: "Add to my reach schools", class: "btn btn-default" %>
+	</div>
 </div>
-
 
 
 
 <br>
 
+<div class="container-fluid">
+	<div class="col-md-6">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Total Applicants</td>
+				<td><%= @school.total_applicants %></td>
+			</tr>
+				<td>Percent Admitted</td>
+				<td><%= @school.percent_admitted %></td>
+			<tr>
+				<td>Percent Attending</td>
+				<td><%= @school.percent_attending %></td>
+			</tr>
+			<tr>	
+				<td>SAT Critical Reading</td>
+				<td><%= @school.range_sat_cr %></td>
+			</tr>
+			<tr>
+				<td>SAT Math</td>
+				<td><%= @school.range_sat_math %></td>
+			</tr>	
+			<tr>
+				<td>SAT Writing</td>
+				<td><%= @school.range_sat_writing %></td>
+			</tr>		
+			<tr>
+				<td>ACT Composite</td>
+				<td><%= @school.range_act_comp %></td>
+			</tr>		
+			<tr>
+				<td>Average High School GPA</td>
+				<td><%= @school.average_hs_gpa %></td>
+			</tr>
+			<tr>
+				<td>Superscore SAT?</td>
+				<td><%= @school.superscore_sat %></td>
+			</tr>
+			<tr>
+				<td>Superscore ACT?</td>
+				<td><%= @school.superscore_act %></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	
+	<div class="col-md-6">
+		<br>
+		<img class="school_show_image" src="<%= @school.image_url %>"/>
+	</div>
+
+</div>
+
 <div>
 	<%= link_to "Back to my profile", profile_path %>
 </div>
 
-<%#= form_for(current_user) do |f| %>
 
-	<!-- <div class="field"> -->
-		<%#= f.label "Add to My Lists" %><!-- <br> -->
-		<%#= f.collection_check_boxes(:list_ids, List.order("name ASC"), :id, :name) do |b| %>
 
-			<%#= b.label { b.check_box } %>
-			<%#= b.label { b.text } %>
-		<!-- 	<br> -->
-			<%# end %>
-<!-- 
-	</div>
-
-	<div class="field"> -->
-		<%#= f.hidden_field :user_id, value: current_user.id %>
-<!-- 	</div> -->
-
-<!-- 	<div class="actions"> -->
-		<%#= f.submit @button_face, :class => "btn btn-primary" %>
-<!-- 	</div> -->

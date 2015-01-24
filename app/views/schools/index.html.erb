@@ -1,16 +1,20 @@
-<h1>Schools List</h1>
+<div class="jumbotron">
+	<h1>Schools List</h1>
+</div>
 
-<form class="form-inline">
+<div class="center-search-bar">
+	<div class="form-inline">
 
-	<%= form_tag('/schools', method:"get", class: "form-search" )do %> <!-- sending to same page it's on -->
-	  <p><%= text_field_tag :search, nil, class: "form-control input-medium search-query" %>
-	  <%= select_tag(:field, options_for_select(["name", "state"]), class: "form-control") %>
-	  <%= button_tag(type: 'submit', class: "btn btn-default") do %>
-	  		<span class="glyphicon glyphicon-search"></span> 
+		<%= form_tag('/schools', method:"get", class: "form-search" )do %> <!-- sending to same page it's on -->
+		<%= text_field_tag :search, nil, class: "form-control input-medium search-query" %>
+		  <%= select_tag(:field, options_for_select(["name", "state"]), class: "form-control") %>
+		  <%= button_tag(type: 'submit', class: "btn btn-default") do %>
+		  		<span class="glyphicon glyphicon-search"></span> 
+			<% end %>
 		<% end %>
-	<% end %></p>
 
-</form>
+	</div>
+</div>
 
 <br>
 
@@ -18,6 +22,4 @@
 	<p><%= s.name %> <%= link_to '', school_path(s), title: "Click for school info", class: "glyphicon glyphicon-info-sign" %></p><br>
 	<% end %>
 
-<div>
-	<%= link_to "Back to my profile", profile_path %>
-</div>
+
