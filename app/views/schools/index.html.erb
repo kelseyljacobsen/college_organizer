@@ -2,7 +2,7 @@
 	<h1>Schools List</h1>
 </div>
 
-<div class="center-search-bar">
+<div class="center-search-bar" id="add-space-search-bar">
 	<div class="form-inline">
 
 		<%= form_tag('/schools', method:"get", class: "form-search" )do %> <!-- sending to same page it's on -->
@@ -15,11 +15,17 @@
 
 	</div>
 </div>
-
 <br>
-
-<% @schools.each do |s| %>
-	<p><%= link_to "#{s.name}", school_path(s), title: "Click for school info" %></p><br>
-	<% end %>
+<table class="table table-striped">
+	<thead>
+	</thead>
+	<tbody>
+		<% @schools.each do |s| %>
+		<tr>
+			<td><%= link_to "#{s.name}", school_path(s), title: "Click for school info" %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
 
 
