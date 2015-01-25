@@ -28,10 +28,6 @@
 	font-size: 14px;
 }
 
-p {
-	font-size: 20px;
-}
-
 .school_show_image {
 	width: 100%;
 	border-radius: 10px;
@@ -51,5 +47,76 @@ p {
 }
 
 body { 
-	padding-top: 70px; 
+	padding-top: 70px;
+	padding-bottom: 70px; 
 }
+
+#profile-jumbotron {
+	background: url("old_books.png") no-repeat center center;
+	background-size: 100%;
+	color: white;
+	text-shadow: 0 4px 6px rgba(0,0,0,.5);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 55px;
+  background-color: black;
+  color: rgb(139,139,139);
+  text-align: center;
+  line-height: 1.428;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer p {
+	padding-top: 18px;
+}
+
+.footer a {
+	color: rgb(139,139,139);
+}
+
+.footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+.homepage {	
+	background: url("deeringmead.png") no-repeat center center;
+	height: 100%;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	.megatext {
+	color: white;
+	font-size: 100px;
+	line-height: 97px;
+	text-align: center;
+	padding-top: 10%;
+	text-shadow: 0 4px 6px rgba(0,0,0,.5);
+  	}
+}
+
+  
+//   height: 100%;
+//   background-color: #060;
+//   color: #fff;
+//   text-align: center;
+//   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+ 
+// }
+
+

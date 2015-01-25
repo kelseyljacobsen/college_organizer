@@ -19,7 +19,7 @@
 <br>
 
 <% @schools.each do |s| %>
-	<p><%= s.name %> <%= link_to '', school_path(s), title: "Click for school info", class: "glyphicon glyphicon-info-sign" %></p><br>
+	<p><%= link_to "#{s.name}", school_path(s), title: "Click for school info" %></p><br>
 	<% end %>
 
 

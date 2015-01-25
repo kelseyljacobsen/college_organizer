@@ -1,6 +1,7 @@
-<div class="jumbotron">
-	<h1>My College List</h1>
-</div>
+<div class="container">
+	<div class="jumbotron" id="profile-jumbotron">
+		<h1>My College List</h1>
+	</div>
 
 	<% flash.each do |key, value| %>
 		<div class="alert alert-<%= key %>" role="alert">
@@ -8,9 +9,11 @@
 		</div>
 	<% end %>
 
-<br>
+	<br>
+</div>
 
 
+<div class="container">
 	<div role="tabpanel">
 
 	  <!-- Nav tabs -->
@@ -98,4 +101,7 @@
 			</table>
 	    </div>
 
+		</div>
 	</div>
+</div>
+
