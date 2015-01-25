@@ -1,6 +1,16 @@
 
 <html class="homepage ">	
 	<body class="homepage">
+
+
+	     <% flash.each do |key, value| %>
+		<div class="alert alert-<%= key %>" role="alert">
+   	  		<%= value %><br>
+		</div>
+		<% end %>
+	
+
+
 		<h1 class="megatext">Welcome to the College Organizer!</h1>
 	</body>
 </html>

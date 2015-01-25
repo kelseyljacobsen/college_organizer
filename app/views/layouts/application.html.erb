@@ -8,41 +8,69 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-book"></span></a>
-    </div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-book"></span></a>
+	    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-    <div class="topnav">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="/profile">My College List<span class="sr-only">(current)</span></a></li>
-        <li><a href="/schools">View All Schools</a></li>
-      </ul>
-    
-      <ul class="nav navbar-nav navbar-right">
-        <% if current_user %>
-		<li><a><%= current_user.first_name + ' ' + current_user.last_name %> </a></li>
-		<li><a href="/logout">Logout</a></li>
-		<% else %>
-		<li><a href="/login">Login</a></li>
-		<li><a href="/signup">Signup</a></li>
-		<% end %>
-	  </ul>
-      </div>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	    <div class="topnav">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="/profile">My College List<span class="sr-only">(current)</span></a></li>
+	        <li><a href="/schools">View All Schools</a></li>
+	      </ul>
+	    
+	      <ul class="nav navbar-nav navbar-right">
+	        <% if current_user %>
+			<li><a><%= current_user.first_name + ' ' + current_user.last_name %> </a></li>
+			<li><a href="/logout">Logout</a></li>
+			<% else %>
+			<li><a href="#myModal" data-toggle="modal" data-target="#myModal">Login</a></li>
+			<li><a href="/signup">Signup</a></li>
+			<% end %>
+		  </ul>
+	      </div>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	          <h4 class="modal-title">Login</h4>
+	        </div>
+	        <div class="modal-body">
+			<%= form_for :user, url: '/login' do |f| %> 
+	          <div class="form-group">
+	    		<label for="exampleInputEmail1">Email address</label>
+				<%= f.email_field :email, placeholder: 'Enter your email', class: "form-control", id: "exampleInputEmail1" %>
+	  		  </div>
+			  <div class="form-group">
+			  	<label for="exampleInputPassword1">Password</label>
+				<%= f.password_field :password, placeholder: 'Enter your password', class: "form-control", id: "exampleInputPassword1" %>
+			  </div>
+	        </div>
+	        <div class="modal-footer">
+	          <a href="#" data-dismiss="modal" class="btn">Close</a>
+	          <%= f.submit "Login", class: "btn btn-primary" %>
+	        </div>
+	        <% end %>
+	      </div>
+	    </div>
+	</div>
 
 	<div class="container">
 		<%= yield %>

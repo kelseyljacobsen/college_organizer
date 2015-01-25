@@ -17,7 +17,7 @@ class UsersController < ApplicationController
 			flash[:info] = "Welcome! Start adding schools to your list!" 
 			redirect_to profile_path
 		else
-			flash[:danger] = @user.errors.full_messages.to_sentence
+			flash.now[:danger] = @user.errors.full_messages.to_sentence
 			render :new
 		end 
 

@@ -12,13 +12,14 @@ def create
 		session[:user_id] = user.id.to_s #guarantees that the session[:user_id] will always be a string of the user's id
 		redirect_to profile_path
 	else
-		flash.now[:danger] = "Uh oh, incorrect password or username. Try again."
-		render :new
+		flash[:danger] = "Uh oh, incorrect password or username. Try again."
+		redirect_to root_path
 	end 
 end 
 
 def destroy
 	session[:user_id] = nil
+	flash[:success] = "You have successfully logged out!"
 	redirect_to root_path
 end 
 

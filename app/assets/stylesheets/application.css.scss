@@ -51,11 +51,41 @@ body {
 	padding-bottom: 70px; 
 }
 
+h1 {
+
+}
+
 #profile-jumbotron {
 	background: url("old_books.png") no-repeat center center;
 	background-size: 100%;
 	color: white;
-	text-shadow: 0 4px 6px rgba(0,0,0,.5);
+	text-shadow: black 0.1em 0.1em 0.2em;
+	// text-shadow: 0 4px 6px rgba(0,0,0,.5);
+}
+
+#signup-jumbotron {
+	background: url("happyyourehere2.png") no-repeat center center;
+	background-size: 100%;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	// text-shadow: 0 15px 20px rgba(0,0,0,.7);
+}
+
+#schools-index-jumbotron {
+	background: url("banner2.png") no-repeat center center;
+	background-size: 100%;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	// text-shadow: 0 15px 20px rgba(0,0,0,.7);
+}
+
+#show-school-jumbotron {
+	background: gray;
+	color: white;
+}
+
+.center-signup-button {
+	text-align: center;
 }
 
 /* Sticky footer styles
@@ -110,13 +140,6 @@ html {
   	}
 }
 
-  
-//   height: 100%;
-//   background-color: #060;
-//   color: #fff;
-//   text-align: center;
-//   text-shadow: 0 1px 3px rgba(0,0,0,.5);
- 
-// }
+
 
 
