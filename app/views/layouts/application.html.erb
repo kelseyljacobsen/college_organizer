@@ -30,6 +30,7 @@
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="/profile">My College List<span class="sr-only">(current)</span></a></li>
 	        <li><a href="/schools">View All Schools</a></li>
+	        <li><a href="#myModal2" data-toggle="modal" data-target="#myModal2">About the Site</a></li>
 	      </ul>
 	    
 	      <ul class="nav navbar-nav navbar-right">
@@ -70,6 +71,54 @@
 	          <%= f.submit "Login", class: "btn btn-primary" %>
 	        </div>
 	        <% end %>
+	      </div>
+	    </div>
+	</div>
+
+	<div class="modal fade" id="myModal2">
+		<div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	          <h4 class="modal-title">About the Site</h4>
+	        </div>
+	        <div class="modal-body">
+				<p>Applying to college can be overwhelming. This app hopes to make the whole process a little easier by tracking which colleges you feel confident about and those that you don't. </p>
+
+				<p>Search through the top 350+ colleges and universities in the country and view the number of applications they receive, the percentage of students the schools admit, and the percentage who actually choose to attend after they have been admitted.</p>
+
+				<p>You can also see how you stack up by viewing the average high school GPA, the typical SAT scores, and the typical ACT scores of the school's current freshman class. Be sure to also note whether the chool superscores the SAT and/or ACT. (This could really boost your chances of getting in.)</p>
+
+				<p><strong>Signup or login to start adding schools to your Safety, Target, and Reach* lists!</strong></p>
+
+				<div class="container-fluid">
+
+					<div class="col-md-1">
+					</div>
+
+					<div class="col-md-10">
+
+						<p><strong>*Safety:</strong>
+						This is school about which you are very confident. Your scores exceed all the requirements, and the subjective parts (essay, letters of rec, extracurriculars, etc.) of your application will blow them away. (This isn't a throw-away school, though. Make sure it's one you would actually want to attend.)</p>
+
+						<p><strong>Target:</strong>
+						This is a school that you really, really want to attend. You’ve been wearing the school sweatshirt since you were four, you already know where you are going to live freshman year, and your stats meet or exceed the requirements.</p>
+
+						<p><strong>Reach:</strong>
+						A reach school is your dream school. You scores might not meet the requirements in an area or two, but you have other great things going for you and this is THE school, so you're going to apply just in case. After all, you don't want to spend your whole life wondering what could have been--and you've got other great Target and Reach schools that you'd be totally happy attending.</p>
+					</div>
+
+					<div class="col-md-1">
+					</div>
+
+				</div>
+
+
+
+	        </div>
+	        <div class="modal-footer">
+	          <a href="#" data-dismiss="modal" class="btn">Close</a>
+	        </div>
 	      </div>
 	    </div>
 	</div>
