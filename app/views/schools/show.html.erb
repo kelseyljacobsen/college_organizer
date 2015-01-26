@@ -2,7 +2,7 @@
 
 <div class="jumbotron" id="show-school-jumbotron">
 	<h1><%= @school.name %></h1>
-	<h4><%= @school.city %>, <%= @school.state %>  &nbsp; | &nbsp; <%= @school.website %></h4>
+	<h4><%= @school.city %>, <%= @school.state %>  &nbsp; | &nbsp; <%= link_to @school.website, "http://#{@school.website}",target: "_blank", class: "make-white" %></h4>
 </div>
 
 <div class="center-buttons">

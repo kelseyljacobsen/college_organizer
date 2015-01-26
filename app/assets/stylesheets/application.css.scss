@@ -16,6 +16,8 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+ // glyphicon styling
+
 .glyphicon {
     font-size: 20px;
 }
@@ -37,16 +39,10 @@
 	border-radius: 10px;
 }
 
+// application styling
+
 .jumbotron {
 	margin-top: 3%;
-	text-align: center;
-}
-
-.center-buttons {
-	text-align: center;
-}
-
-.center-search-bar {
 	text-align: center;
 }
 
@@ -72,6 +68,27 @@ h4 {
 .small-text {
 	font-size: 16px !important;
 }
+
+
+// show.html styling
+
+.center-buttons {
+	text-align: center;
+}
+
+.center-search-bar {
+	text-align: center;
+}
+.make-white {
+	color: white;
+	text-decoration: none;
+}
+
+.make-white:hover {
+	text-decoration: none;
+}
+
+// jumbotron styling
 
 #profile-jumbotron {
 	background: image-url("old_books2.png") no-repeat center center;
@@ -105,12 +122,16 @@ h4 {
 	background-image: linear-gradient(to bottom, #315481, #918e82 100%);
 }
 
+
+// signup page styling 
+
 .center-signup-button {
 	text-align: center;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+
+// footer styling
+
 html {
   position: relative;
   min-height: 100%;
@@ -143,6 +164,7 @@ html {
 	text-decoration: none;
 }
 
+// homepage styling
 
 .homepage {	
 	background: image-url("deeringmead.png") no-repeat center center;
@@ -161,9 +183,13 @@ html {
   	}
 }
 
+// all schools.html styling
+
 #add-space-search-bar {
 	padding-bottom: 8px;
 }
+
+// above the site navbar styling
 
 #safety-text {
 	color: rgb(76,179,214);
