@@ -12,8 +12,8 @@ class School
   field :range_sat_writing, type: String
   field :range_act_comp, type: String
   field :average_hs_gpa, type: Float
-  field :superscore_sat, type: Boolean
-  field :superscore_act, type: Boolean 
+  field :superscore_sat, type: String
+  field :superscore_act, type: String 
   field :image_url, type: String
 
 end

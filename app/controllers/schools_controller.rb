@@ -7,28 +7,11 @@ class SchoolsController < ApplicationController
   			@schools = School.where(params[:field].to_sym => /#{reg}/i)
   		else
     		@schools = School.all
-    end
-
-
+    	end
 	end 
 
 	def show
 		@school = School.find(params[:id])
-	end 
-
-	def new
-	end 
-
-	def create
-	end 
-
-	def edit
-	end 
-
-	def update
-	end
-
-	def destroy
 	end 
 
 end 
