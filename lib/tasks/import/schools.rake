@@ -548,7 +548,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "http://upload.wikimedia.org/wikipedia/commons/c/c0/Fountain_at_Caltech.jpg" }
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/c/c0/Fountain_at_Caltech.jpg" },
 
 		{ name: "California State University, Stanislaus", 
 		  city: "Turlock", 
@@ -564,7 +564,7 @@ namespace :import do
 		  average_hs_gpa: "3.26", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "http://catalog.csustan.edu/mime/media/13/850/homepage%20photo%2011_12.JPG" }
+		  image_url: "http://catalog.csustan.edu/mime/media/13/850/homepage%20photo%2011_12.JPG" },
 
 		{ name: "Calvin College", 
 		  city: "Grand Rapids", 
@@ -580,7 +580,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "https://oldalexius.files.wordpress.com/2014/02/hekman-library-general-view-calvin-college-large.jpg" }
+		  image_url: "https://oldalexius.files.wordpress.com/2014/02/hekman-library-general-view-calvin-college-large.jpg" },
 
 		{ name: "Carleton College", 
 		  city: "Northfield", 
@@ -596,7 +596,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "http://upload.wikimedia.org/wikipedia/commons/9/98/Carleton_College_Aerial.jpg" }
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/9/98/Carleton_College_Aerial.jpg" },
 
 		{ name: "Carngie Mellon University", 
 		  city: "Pittsburgh", 
@@ -612,7 +612,7 @@ namespace :import do
 		  average_hs_gpa: "3.72", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "http://www.cmu.edu/multimedia/images/wallpapers/cmu-student-pride.jpg" }
+		  image_url: "http://www.cmu.edu/multimedia/images/wallpapers/cmu-student-pride.jpg" },
 
 		{ name: "Case Western Reserve University", 
 		  city: "Cleveland", 
@@ -628,7 +628,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "http://upload.wikimedia.org/wikipedia/commons/3/38/Case_western_reserve_campus_2005.jpg" }
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/3/38/Case_western_reserve_campus_2005.jpg" },
 
 		{ name: "Catawba College", 
 		  city: "Salisbury", 
