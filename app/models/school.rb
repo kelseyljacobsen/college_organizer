@@ -15,5 +15,4 @@ class School
   field :superscore_sat, type: String
   field :superscore_act, type: String 
   field :image_url, type: String
-
 end

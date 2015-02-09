@@ -2,21 +2,24 @@
 	<h1>Schools List</h1>
 </div>
 
+<!-- SEARCH BAR: allows user to search for schools by name and location -->
 <div class="center-search-bar" id="add-space-search-bar">
 	<div class="form-inline">
-
-		<%= form_tag('/schools', method:"get", class: "form-search" )do %> <!-- sending to same page it's on -->
+		<!-- sending to same page it's on -->
+		<%= form_tag('/schools', method:"get", class: "form-search" )do %> 
 		<%= text_field_tag :search, nil, class: "form-control input-medium search-query" %>
 		  <%= select_tag(:field, options_for_select(["name", "state"]), class: "form-control") %>
 		  <%= button_tag(type: 'submit', class: "btn btn-default") do %>
 		  		<span class="glyphicon glyphicon-search"></span> 
 			<% end %>
 		<% end %>
-
 	</div>
 </div>
+<!-- END OF SEARCH BAR -->
+
 <br>
 
+<!-- TABLE OF SCHOOLS -->
 <table class="table table-striped">
 	<thead>
 	</thead>
@@ -28,4 +31,5 @@
 		<% end %>
 	</tbody>
 </table>
+<!-- END OF TABLE OF SCHOOLS -->
 

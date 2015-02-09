@@ -69,7 +69,7 @@ h4 {
 	font-size: 16px !important;
 }
 
-// show.html styling
+// show schools template styling
 
 .center-buttons {
 	text-align: center;
@@ -88,14 +88,13 @@ h4 {
 	text-decoration: none;
 }
 
-// jumbotron styling
+// jumbotron styling for all pages
 
 #profile-jumbotron {
 	background: image-url("old_books2.png") no-repeat center center;
 	background-size: 100%;
 	color: white;
 	text-shadow: black 0.2em 0.2em 0.3em;
-	// text-shadow: 0 4px 6px rgba(0,0,0,.5);
 }
 
 #signup-jumbotron {
@@ -103,15 +102,12 @@ h4 {
 	background-size: 100%;
 	color: white;
 	text-shadow: black 0.2em 0.2em 0.3em;
-	// text-shadow: 0 15px 20px rgba(0,0,0,.7);
 }
 
 #schools-index-jumbotron {
 	background: image-url("banner2.png") no-repeat center center;
 	background-size: 100%;
 	color: white;
-	text-shadow: black 0.2em 0.2em 0.3em;
-	// text-shadow: 0 15px 20px rgba(0,0,0,.7);
 }
 
 #show-school-jumbotron {
@@ -123,14 +119,14 @@ h4 {
 }
 
 
-// signup page styling 
+// signup template styling 
 
 .center-signup-button {
 	text-align: center;
 }
 
 
-// footer styling
+// footer styling for all pages
 
 html {
   position: relative;
@@ -141,7 +137,6 @@ html {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 55px;
   background-color: black;
   color: rgb(139,139,139);
@@ -183,7 +178,7 @@ html {
   	}
 }
 
-// all schools.html styling
+// all schools index template styling
 
 #add-space-search-bar {
 	padding-bottom: 8px;

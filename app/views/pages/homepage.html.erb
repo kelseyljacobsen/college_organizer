@@ -1,17 +1,18 @@
-
 <html class="homepage ">	
 	<body class="homepage">
 
+  <!-- Logout alerts appear here -->
 
-	     <% flash.each do |key, value| %>
+    <% flash.each do |key, value| %>
+
 		<div class="alert alert-<%= key %>" role="alert">
-   	  		<%= value %><br>
+   	  <%= value %><br>
 		</div>
-		<% end %>
+		
+    <% end %>
 	
-
-
 		<h1 class="megatext">Welcome to the College Organizer!</h1>
+
 	</body>
 </html>
 

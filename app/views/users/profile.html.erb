@@ -3,29 +3,30 @@
 		<h1>My College List</h1>
 	</div>
 
+<!-- welcome back messages and added/deleted school messages display here -->
 	<% flash.each do |key, value| %>
 		<div class="alert alert-<%= key %>" role="alert">
 	   	   <%= value %><br>
 		</div>
 	<% end %>
-
 	<br>
-</div>
 
+</div>
 
 <div class="container">
 	<div role="tabpanel">
 
-	  <!-- Nav tabs -->
+	  <!-- Nav tabs for safety, target, and reach lists -->
 	  <ul class="nav nav-tabs" role="tablist">
 	    <li role="presentation" class="active"><a href="#safety" role="tab" data-toggle="tab">Safety Schools</a></li>
 	    <li role="presentation"><a href="#target" role="tab" data-toggle="tab">Target Schools</a></li>
 	    <li role="presentation"><a href="#reach" role="tab" data-toggle="tab">Reach Schools</a></li>
 	  </ul>
 
-	  <!-- Tab panes -->
+	  <!-- TAB PANES BEGIN HERE -->
 	  <div class="tab-content">
 
+			<!-- 	  Safety List -->
 	    <div role="tabpanel" class="tab-pane fade in active" id="safety">	
 		   	<table class="table table-striped">
 		   		<thead>
@@ -54,6 +55,7 @@
 
 	    </div>
 
+			<!-- Target List -->
 	    <div role="tabpanel" class="tab-pane fade in" id="target">
 			<table class="table table-striped">
 		   		<thead>
@@ -82,6 +84,7 @@
 
 	    </div>
 
+			<!-- Reach List -->
 	    <div role="tabpanel" class="tab-pane fade in" id="reach">
 	 		<table class="table table-striped">
 		   		<thead>
@@ -111,6 +114,8 @@
 	    </div>
 
 		</div>
+		<!-- 		TAB PANES END HERE -->
+		
 	</div>
 </div>
 

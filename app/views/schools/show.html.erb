@@ -1,10 +1,9 @@
-
-
 <div class="jumbotron" id="show-school-jumbotron">
 	<h1><%= @school.name %></h1>
 	<h4><%= @school.city %>, <%= @school.state %>  &nbsp; | &nbsp; <%= link_to @school.website, "http://#{@school.website}",target: "_blank", class: "make-white" %></h4>
 </div>
 
+<!-- Clicking a button adds that particular school to one of the user's lists -->
 <div class="center-buttons">
 	<div class="btn-group" role="group">
 	 	<%= link_to "Safety School", add_school_path(id: @school.id, list: "safety"), title: "Add to my safety schools",  class: "btn btn-info" %>
@@ -13,11 +12,11 @@
 	</div>
 </div>
 
-
-
 <br>
 
 <div class="container-fluid">
+
+<!-- Table of info about the school -->
 	<div class="col-md-6">
 	<table class="table table-striped">
 		<thead>
@@ -69,6 +68,7 @@
 	</table>
 	</div>
 	
+<!-- 	Picture of school -->
 	<div class="col-md-6">
 		<br>
 		<img class="school_show_image" src="<%= @school.image_url %>"/>
