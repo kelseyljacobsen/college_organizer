@@ -4530,7 +4530,7 @@ namespace :import do
 		  range_sat_writing: "570-680", 
 		  range_act_comp: "26-31", 
 		  average_hs_gpa: "unavailable", 
-		  superscore_sat: ""yes, 
+		  superscore_sat: "yes", 
 		  superscore_act: "no", 
 		  image_url: "" }, 
 
