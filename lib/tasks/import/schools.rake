@@ -1428,7 +1428,7 @@ namespace :import do
 		  average_hs_gpa: "3.75", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/a/ab/Emory_Quad.jpg" }, 
 
 		{ name: "The Evergreen State College", 
 		  city: "Olympia", 
@@ -1444,7 +1444,7 @@ namespace :import do
 		  average_hs_gpa: "3.02", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://d1jrw5jterzxwu.cloudfront.net/sites/default/files/article_media/the-evergreen-state-college.jpg" }, 
 
 		{ name: "Fairfield University", 
 		  city: "Fairfield", 
@@ -1460,7 +1460,7 @@ namespace :import do
 		  average_hs_gpa: "3.38", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/2/2f/Fairfield_Entrance.JPG" }, 
 
 		{ name: "Flagler College", 
 		  city: "St. Augustine", 
@@ -1476,7 +1476,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://augustine.com/sites/default/files/flagler_college_building_5x3.jpg" }, 
 
 		{ name: "Florida Southern College", 
 		  city: "Lakeland", 
@@ -1492,7 +1492,7 @@ namespace :import do
 		  average_hs_gpa: "3.62", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.flsouthern.edu/getmedia/e763a236-8e99-42fd-9b83-8d4ebdf6c805/hero-fsc-corner-sign.aspx" }, 
 
 		{ name: "Florida State University", 
 		  city: "Tallahassee", 
@@ -1508,7 +1508,7 @@ namespace :import do
 		  average_hs_gpa: "3.88", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.natcom.org/uploadedImages/More_Scholarly_Resources/Doctoral_Program_Resource_Guide/FSU%20Campus.jpg" }, 
 
 		{ name: "Fordham University", 
 		  city: "New York", 
@@ -1524,7 +1524,7 @@ namespace :import do
 		  average_hs_gpa: "3.70", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/7/76/Fordham_University_Keating_Hall.JPG" }, 
 
 		{ name: "Franklin & Marshall College", 
 		  city: "Lancaster", 
@@ -1540,7 +1540,7 @@ namespace :import do
 		  average_hs_gpa: "3.49", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://36.media.tumblr.com/tumblr_m1gt6vmwlX1r4rpqao1_1280.jpg?.jpg" }, 
 
 		{ name: "Franklin W. Olin College of Engineering", 
 		  city: "Needham", 
@@ -1556,7 +1556,7 @@ namespace :import do
 		  average_hs_gpa: "3.90", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/en/archive/9/9b/20041203215243!Olin_College_Great_Lawn.jpg" }, 
 
 		{ name: "Furman University", 
 		  city: "Greenville", 
@@ -1572,7 +1572,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://images.fineartamerica.com/images-medium-large-5/3-furman-university-bell-tower-at-sunset-greenville-sc-willie-harper.jpg" }, 
 
 		{ name: "George Mason University", 
 		  city: "Fairfax", 
@@ -1588,7 +1588,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.atriumcampus.com/wp-content/uploads/2013/10/gmu.jpg" }, 
 
 		{ name: "The George Washington University", 
 		  city: "Washington", 
@@ -1604,7 +1604,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/52/USA-The_George_Washington_University.JPG" }, 
 
 		{ name: "Georgetown University", 
 		  city: "Washington", 
@@ -1620,7 +1620,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/0/00/Georgetown_University_-27.JPG" }, 
 
 		{ name: "Georgia Institute of Technology", 
 		  city: "Atlanta", 
@@ -1636,7 +1636,7 @@ namespace :import do
 		  average_hs_gpa: "3.95", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/f/f8/Carnegie_Building_6272.jpg" }, 
 
 		{ name: "Gettysburg College", 
 		  city: "Gettysburg", 
@@ -1652,7 +1652,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://puka.cs.waikato.ac.nz/custom/cic/collect/cic-hcap/index/assoc/p701.dir/Glatfelter%20Hall,%20Gettysburg%20College-large.jpg" }, 
 
 		{ name: "Gonzaga University", 
 		  city: "Spokane", 
@@ -1668,7 +1668,7 @@ namespace :import do
 		  average_hs_gpa: "3.73", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.nativelegalupdate.com/uploads/image/gonzaga.JPG" }, 
 
 		{ name: "Gordon College", 
 		  city: "Wenham", 
@@ -1684,7 +1684,7 @@ namespace :import do
 		  average_hs_gpa: "3.58", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/4/49/A_J_Gordon_Memorial_Chapel,_Gordon_College,_Wenham_MA.jpg" }, 
 
 		{ name: "Goucher College", 
 		  city: "Baltimore", 
@@ -1700,7 +1700,7 @@ namespace :import do
 		  average_hs_gpa: "3.20", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://specials-images.forbesimg.com/imageserve/dba68379e631ee5c99b8dddf947c9381/620x434.jpg?fit=scale&background=000000" }, 
 
 		{ name: "Green Mountain College", 
 		  city: "Poultney", 
@@ -1716,7 +1716,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://theropeswing.greenmtn.edu/storage/IMG_0582.JPG?__SQUARESPACE_CACHEVERSION=1327867723600" }, 
 
 		{ name: "Grinnell College", 
 		  city: "Grinnell", 
@@ -1732,7 +1732,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/3/3d/GrinnellCollegeGatesTower.jpg" }, 
 
 		{ name: "Grove City College", 
 		  city: "Grove City", 
@@ -1748,7 +1748,7 @@ namespace :import do
 		  average_hs_gpa: "3.72", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.gcc.edu/_layouts/GCC/Backgrounds/1024.jpg" }, 
 
 		{ name: "Guilford College", 
 		  city: "Greensboro", 
@@ -1764,7 +1764,7 @@ namespace :import do
 		  average_hs_gpa: "3.16", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/c/c1/Guilfordcollegewalkway.jpg" }, 
 
 		{ name: "Hamilton College", 
 		  city: "Clinton", 
@@ -1780,7 +1780,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://hardingfarm.com/yahoo_site_admin/assets/images/Hamilton_College_Chapel.103171852_std.jpg" }, 
 
 		{ name: "Hampden-Sydney College", 
 		  city: "Hampden-Sydney", 
@@ -1796,7 +1796,7 @@ namespace :import do
 		  average_hs_gpa: "3.40", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/1/18/Cushing_Hall_at_Hampden-Sydney_College_in_Virginia.JPG" }, 
 
 		{ name: "Hampton University", 
 		  city: "Hampton", 
@@ -1812,7 +1812,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://mas.hamptonu.edu/img/ogden/DSC_0017.jpg" }, 
 
 		{ name: "Hanover College", 
 		  city: "Hanover", 
@@ -1828,7 +1828,7 @@ namespace :import do
 		  average_hs_gpa: "3.67", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/1/1f/Hanover_College_Campus_Aerial.jpg" }, 
 
 		{ name: "Harvard College", 
 		  city: "Cambridge", 
@@ -1844,7 +1844,7 @@ namespace :import do
 		  average_hs_gpa: "4.04", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/d/d7/Harvard_University_Old_Hall.jpg" }, 
 
 		{ name: "Harvey Mudd College", 
 		  city: "Claremont", 
@@ -1860,7 +1860,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/b/b7/Hmc-dartmouth_entrance.jpg" }, 
 
 		{ name: "Hillsdale College", 
 		  city: "Hillsdale", 
@@ -1876,7 +1876,7 @@ namespace :import do
 		  average_hs_gpa: "3.81", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/56/Hillsdale_College_Delp_Hall.JPG" }, 
 
 		{ name: "Hobart and William Smith Colleges", 
 		  city: "Geneva", 
@@ -1892,7 +1892,7 @@ namespace :import do
 		  average_hs_gpa: "3.36", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://z2.cheggcdn.com/sites/default/files/2009/10/30/1421147_51db122f5889f_hws_campus.png" }, 
 
 		{ name: "Hofstra University", 
 		  city: "Hempstead", 
@@ -1908,7 +1908,7 @@ namespace :import do
 		  average_hs_gpa: "3.51", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.hofstra.edu/images/adm/picturetour/adm_phototour_memorialhall.jpg" }, 
 
 		{ name: "Hollins University", 
 		  city: "Roanoke", 
@@ -1924,7 +1924,7 @@ namespace :import do
 		  average_hs_gpa: "3.50", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.kcactf4.org/Files/Festival/46/img/hollins1.jpg" }, 
 
 		{ name: "Howard University", 
 		  city: "Washington", 
@@ -1940,7 +1940,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.natcom.org/uploadedImages/More_Scholarly_Resources/Doctoral_Program_Resource_Guide/Howard%20Campus.jpg" }, 
 
 		{ name: "Illinois Institute of Technology", 
 		  city: "Chicago", 
@@ -1956,7 +1956,7 @@ namespace :import do
 		  average_hs_gpa: "3.64", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/8/89/Crown_Hall_2.jpg" }, 
 
 		{ name: "Illinois Wesleyan University", 
 		  city: "Bloomington", 
@@ -1972,7 +1972,7 @@ namespace :import do
 		  average_hs_gpa: "3.73", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/9/9f/Ames_Library_IWU_2003.jpg" }, 
 
 		{ name: "Indiana University - Bloomington", 
 		  city: "Bloomington", 
@@ -1988,7 +1988,7 @@ namespace :import do
 		  average_hs_gpa: "3.62", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://cdn01.dailycaller.com/wp-content/uploads/2012/10/Indiana-Flickr-Clint-Mickel1-e1350368666909.jpg" }, 
 
 		{ name: "Indiana University of Pennsylvania", 
 		  city: "Indiana", 
@@ -2004,7 +2004,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://travelwithlaughter.files.wordpress.com/2011/11/img_5149.jpg" }, 
 
 		{ name: "Iowa State University", 
 		  city: "Ames", 
@@ -2020,7 +2020,7 @@ namespace :import do
 		  average_hs_gpa: "3.55", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://blogs.extension.iastate.edu/isuecofamily/files/2014/08/ISU-campus-fall.jpg" }, 
 
 		{ name: "Ithaca College", 
 		  city: "Ithaca", 
@@ -2036,7 +2036,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.rorukavena.com/images/ithaca/big/IthacaCollege.jpg" }, 
 
 		{ name: "James Madison University", 
 		  city: "Harrisonburg", 
@@ -2052,7 +2052,7 @@ namespace :import do
 		  average_hs_gpa: "3.80", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://packedsuitcase.com/wp-content/uploads/2013/10/JMU-Campus.jpg" }, 
 
 		{ name: "Johns Hopkins University", 
 		  city: "Baltimore", 
@@ -2068,7 +2068,7 @@ namespace :import do
 		  average_hs_gpa: "3.74", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/1/1a/Gilman_Hall,_Johns_Hopkins_University,_Baltimore,_MD.jpg" }, 
 
 		{ name: "Juniata College", 
 		  city: "Huntingdon", 
@@ -2084,7 +2084,7 @@ namespace :import do
 		  average_hs_gpa: "3.75", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.ctcl.org/files/images/juniata/juniata-1.jpg" }, 
 
 		{ name: "Kalamazoo College", 
 		  city: "Kalamazoo", 
@@ -2100,7 +2100,7 @@ namespace :import do
 		  average_hs_gpa: "3.61", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/0/0d/Hoben_Hall.jpg" }, 
 
 		{ name: "Kansas State University", 
 		  city: "Manhattan", 
@@ -2116,7 +2116,7 @@ namespace :import do
 		  average_hs_gpa: "3.47", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.greatvaluecolleges.net/wp-content/uploads/2014/07/kansas.jpg" }, 
 
 		{ name: "Kenyon College", 
 		  city: "Gambier", 
@@ -2132,7 +2132,7 @@ namespace :import do
 		  average_hs_gpa: "3.90", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/a/ab/Kenyon_College_Ransom_Hall_2.jpg" }, 
 
 		{ name: "Knox College", 
 		  city: "Galesburg", 
@@ -2148,7 +2148,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://departments.knox.edu/newsarchive/knox-college-old-main-4095.jpg" }, 
 
 		{ name: "Lafayette College", 
 		  city: "Easton", 
@@ -2689,7 +2689,7 @@ namespace :import do
 		  range_sat_math: "520-610", 
 		  range_sat_writing: "490-600", 
 		  range_act_comp: "23-27", 
-		  average_hs_gpa: "89.30 (100-point scale)", 
+		  average_hs_gpa: "89.30/100", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
 		  image_url: "" }, 
@@ -3441,7 +3441,7 @@ namespace :import do
 		  range_sat_math: "510-610", 
 		  range_sat_writing: "480-590", 
 		  range_act_comp: "22-27", 
-		  average_hs_gpa: "89.70 (100-point scale)", 
+		  average_hs_gpa: "89.70/100", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
 		  image_url: "" }, 
@@ -5585,7 +5585,7 @@ namespace :import do
 		  range_sat_math: "520-640", 
 		  range_sat_writing: "520-620", 
 		  range_act_comp: "22-27", 
-		  average_hs_gpa: "89.10 (100-point scale)", 
+		  average_hs_gpa: "89.10/100", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
 		  image_url: "" }, 
