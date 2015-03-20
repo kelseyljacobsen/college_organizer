@@ -660,7 +660,7 @@ namespace :import do
 		  average_hs_gpa: "3.33", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://metro.cua.edu/res/images/CUA%20Campus%20Stock%20Photos%20010.JPG" }, 
 
 		{ name: "Centenary College of Louisiana", 
 		  city: "Shreveport", 
@@ -676,7 +676,7 @@ namespace :import do
 		  average_hs_gpa: "3.53", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.greatvaluecolleges.net/wp-content/uploads/2014/07/centenary.jpg" }, 
 
 		{ name: "Centre College", 
 		  city: "Danville", 
@@ -692,7 +692,7 @@ namespace :import do
 		  average_hs_gpa: "3.70", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.ctcl.org/files/images/centre/old_centre576x375.jpg" }, 
 
 		{ name: "Champlain College", 
 		  city: "Burlington", 
@@ -708,7 +708,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://news.champlain.edu/wp-content/uploads/2013/05/url.jpeg" }, 
 
 		{ name: "Chapman University", 
 		  city: "Orange", 
@@ -724,7 +724,7 @@ namespace :import do
 		  average_hs_gpa: "3.68", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://i.ytimg.com/vi/jQitmBNI8x4/maxresdefault.jpg" }, 
 
 		{ name: "Christopher Newport University", 
 		  city: "Newport News", 
@@ -740,7 +740,7 @@ namespace :import do
 		  average_hs_gpa: "3.70", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://bonnernetwork.pbworks.com/f/CNUentrance.jpg" }, 
 
 		{ name: "City University of New York - Baruch College", 
 		  city: "New York", 
@@ -756,7 +756,7 @@ namespace :import do
 		  average_hs_gpa: "3.21", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.baruch.cuny.edu/undergrad/images/BaruchCollegeSign.JPG" }, 
 
 		{ name: "City University of New York - Brooklyn College", 
 		  city: "Brooklyn", 
@@ -772,7 +772,7 @@ namespace :import do
 		  average_hs_gpa: "3.28", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://lc.brooklyn.cuny.edu/images/quad.jpg" }, 
 
 		{ name: "City University of New York - City College", 
 		  city: "New York", 
@@ -788,7 +788,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.horvitzlab.com/City_College%20photo.jpg" }, 
 
 		{ name: "City University of New York - Hunter College", 
 		  city: "New York", 
@@ -804,7 +804,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.campusexplorer.com/media/560x420/CUNY-Hunter-College-EE5EDBEB.jpg" }, 
 
 		{ name: "City University of New York - Queens College", 
 		  city: "Queens", 
@@ -820,7 +820,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://digitalarchivesresources.qwriting.qc.cuny.edu/files/2011/09/qc10_bg_000056.jpg" }, 
 
 		{ name: "Claremont McKenna College", 
 		  city: "Claremont", 
@@ -836,7 +836,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.claremontmckenna.edu/news/wp-content/uploads/2013/06/KCSpotlight2.jpg" }, 
 
 		{ name: "Clarkson University", 
 		  city: "Potsdam", 
@@ -852,7 +852,7 @@ namespace :import do
 		  average_hs_gpa: "3.60", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.clarkson.edu/news/photos/bhsh-view.jpg" }, 
 
 		{ name: "Clemson University", 
 		  city: "Clemson", 
@@ -884,7 +884,7 @@ namespace :import do
 		  average_hs_gpa: "3.62", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://colleges.usnews.rankingsandreviews.com/img/college-photo_6700..JPG" }, 
 
 		{ name: "Colby College", 
 		  city: "Waterville", 
@@ -900,7 +900,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://colbymindfulness.files.wordpress.com/2013/11/johnson1.jpg" }, 
 
 		{ name: "Colgate University", 
 		  city: "Hamilton", 
@@ -916,7 +916,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://news.colgate.edu/wp-content/uploads/2012/12/AP-scenic.jpg" }, 
 
 		{ name: "College of the Atlantic", 
 		  city: "Bar Harbor", 
@@ -932,7 +932,7 @@ namespace :import do
 		  average_hs_gpa: "3.56", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://colleges.niche.com/images/standard/28717/?v=3116a3d" }, 
 
 		{ name: "College of Charleston", 
 		  city: "Charleston", 
@@ -948,7 +948,7 @@ namespace :import do
 		  average_hs_gpa: "3.90", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://snjilly.stu.cofc.edu/charleston.jpg" }, 
 
 		{ name: "College of the Holy Cross", 
 		  city: "Worcester", 
@@ -964,7 +964,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.dharmaswara.org/wordpress/wp-content/uploads/2014/02/opl_IMG_0211.jpg" }, 
 
 		{ name: "The College of Idaho", 
 		  city: "Caldwell", 
@@ -980,7 +980,7 @@ namespace :import do
 		  average_hs_gpa: "3.64", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://media.jrn.com/images/college+of+idaho.jpg" }, 
 
 		{ name: "The College of New Jersey", 
 		  city: "Ewing", 
@@ -996,7 +996,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.tcnjmagazine.com/wp-content/uploads/2013/06/CRW_3457_c.jpg" }, 
 
 		{ name: "College of the Ozarks", 
 		  city: "Point Lookout", 
@@ -1012,7 +1012,7 @@ namespace :import do
 		  average_hs_gpa: "3.63", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://o.aolcdn.com/hss/storage/mqdiscover/ded17a1fb38de3ebf8f8ca5543e0eca7" }, 
 
 		{ name: "College of Saint Benedict/Saint John's University", 
 		  city: "St. Joseph", 
@@ -1028,7 +1028,7 @@ namespace :import do
 		  average_hs_gpa: "3.59", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "sites/default/files/images/colleges/22Quad021.jpg" }, 
 
 		{ name: "The College of William & Mary", 
 		  city: "Williamsburg", 
@@ -1044,7 +1044,7 @@ namespace :import do
 		  average_hs_gpa: "4.00", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://c1.staticflickr.com/5/4017/4650657217_0b48c0d079_b.jpg" }, 
 
 		{ name: "The College of Wooster", 
 		  city: "Wooster", 
@@ -1060,7 +1060,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://images.huffingtonpost.com/2011-11-24-College_of_Wooster_G.jpg" }, 
 
 		{ name: "Colorado College", 
 		  city: "Colorado Springs", 
@@ -1076,7 +1076,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://www.coloradocollege.edu/dotAsset/fddcc031-bacc-4a1a-9b8a-7633a990bd93.jpg" }, 
 
 		{ name: "Colorado State University", 
 		  city: "Fort Collins", 
@@ -1092,7 +1092,7 @@ namespace :import do
 		  average_hs_gpa: "3.61", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/5d/CSU_University_Center_for_the_Arts.jpg" }, 
 
 		{ name: "Columbia University", 
 		  city: "New York", 
@@ -1108,7 +1108,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.columbia.edu/files/columbia/slideshow/tour-schermerhorn_0.png" }, 
 
 		{ name: "Connecticut College", 
 		  city: "New London", 
@@ -1124,7 +1124,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://ahc-assets-website-wsp.s3.amazonaws.com/styles/large/s3/Conn%20College.jpg?itok=DzIU3Uel" }, 
 
 		{ name: "The Cooper Union for the Advancement of Science and Art", 
 		  city: "New York", 
@@ -1140,7 +1140,7 @@ namespace :import do
 		  average_hs_gpa: "3.60", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/d/d0/Cooper_Union_New_Academic_Bldg_from_south.jpg" }, 
 
 		{ name: "Cornell College", 
 		  city: "Mount Vernon", 
@@ -1156,7 +1156,7 @@ namespace :import do
 		  average_hs_gpa: "3.54", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.ctcl.org/files/images/cornell/cornell-college1000x699.jpg" }, 
 
 		{ name: "Cornell University", 
 		  city: "Ithaca", 
@@ -1172,7 +1172,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://fe.fs.cornell.edu/img/mainPage/ArtsQuad.jpg" }, 
 
 		{ name: "Creighton University", 
 		  city: "Omaha", 
@@ -1188,7 +1188,7 @@ namespace :import do
 		  average_hs_gpa: "3.75", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://blogs.creighton.edu/justice2013/files/2013/02/StJohnsChurch.jpg" }, 
 
 		{ name: "Dartmouth College", 
 		  city: "Hanover", 
@@ -1204,7 +1204,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/e/ec/Dartmouth_College_campus_2007-10-20_09.JPG" }, 
 
 		{ name: "Davidson College", 
 		  city: "Davidson", 
@@ -1220,7 +1220,7 @@ namespace :import do
 		  average_hs_gpa: "3.98", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/a/ab/Chambers_Building,_Davidson_College_(Davidson,_North_Carolina).jpg" }, 
 
 		{ name: "Deep Springs College", 
 		  city: "Dyer", 
@@ -1236,7 +1236,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.brianfrankphoto.com/data/photos/150_1deepsprings009.jpg" }, 
 
 		{ name: "Denison University", 
 		  city: "Granville", 
@@ -1252,7 +1252,7 @@ namespace :import do
 		  average_hs_gpa: "3.50", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://greenbillion.org/wp-content/uploads/2011/10/denison_university_02.jpg" }, 
 
 		{ name: "DePaul University", 
 		  city: "Chicago", 
@@ -1268,7 +1268,7 @@ namespace :import do
 		  average_hs_gpa: "3.65", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://static1.squarespace.com/static/5396b073e4b07d4ea4512ed1/t/5397375be4b0177cf6e77a4f/1402419061295/DePaulCityShot.jpg?format=1500w" }, 
 
 		{ name: "DePauw University", 
 		  city: "Greencastle", 
@@ -1284,7 +1284,7 @@ namespace :import do
 		  average_hs_gpa: "3.75", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://specials-images.forbesimg.com/imageserve/00U78tvcG1bR5/0x600.jpg?fit=scale&background=000000" }, 
 
 		{ name: "Dickinson College", 
 		  city: "Carlisle", 
@@ -1300,7 +1300,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/7/70/Dickinson_College_2.JPG" }, 
 
 		{ name: "Drew University", 
 		  city: "Madison", 
@@ -1316,7 +1316,7 @@ namespace :import do
 		  average_hs_gpa: "3.40", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/en/4/40/Asbury_Hall_Drew_University.jpg" }, 
 
 		{ name: "Drexel University", 
 		  city: "Philadelphia", 
@@ -1332,7 +1332,7 @@ namespace :import do
 		  average_hs_gpa: "3.60", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.drexel.edu/~/media/Images/coresite/backgrounds/pt3/General/dragon-rec-center/mobile.ashx" }, 
 
 		{ name: "Duke University", 
 		  city: "Philadelphia", 
@@ -1348,7 +1348,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.fabuloussavers.com/new_wallpaper/Duke_University_freecomputerdesktopwallpaper_1600.jpg" }, 
 
 		{ name: "Duquesne University", 
 		  city: "Pittsburgh", 
@@ -1364,7 +1364,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.aashe.org/images/resources/profiles/photos/DuquesneUniversity.jpg" }, 
 
 		{ name: "Eckerd College", 
 		  city: "St. Petersburg", 
@@ -1380,7 +1380,7 @@ namespace :import do
 		  average_hs_gpa: "3.34", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.tampabay.com/resources/images/dti/rendered/2013/02/nal_eckerd020313a_10221681_8col.jpg" }, 
 
 		{ name: "Elon University", 
 		  city: "Elon", 
@@ -1396,7 +1396,7 @@ namespace :import do
 		  average_hs_gpa: "3.96", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://adrp.memberclicks.net/assets/media/elon.jpg" }, 
 
 		{ name: "Emerson College", 
 		  city: "Boston", 
@@ -1412,7 +1412,7 @@ namespace :import do
 		  average_hs_gpa: "3.59", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/a/af/Emerson_College,_Boston_MA.jpg" }, 
 
 		{ name: "Emory University", 
 		  city: "Atlanta", 
