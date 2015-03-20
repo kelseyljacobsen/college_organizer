@@ -5538,7 +5538,7 @@ namespace :import do
 		  range_sat_writing: "540-640", 
 		  range_act_comp: "unavailable", 
 		  average_hs_gpa: "unavailable", 
-		  superscore_sat: ""yes, 
+		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
 		  image_url: "" }, 
 
