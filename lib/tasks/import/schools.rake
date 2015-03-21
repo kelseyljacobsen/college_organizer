@@ -4244,7 +4244,7 @@ namespace :import do
 		  average_hs_gpa: "3.40", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://publichealth.arizona.edu/sites/publichealth.arizona.edu/files/students/images/grad/ua-1.jpg" }, 
 
 		{ name: "University of Arkansas - Fayetteville", 
 		  city: "Fayetteville", 
@@ -4260,7 +4260,7 @@ namespace :import do
 		  average_hs_gpa: "3.62", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/3/3b/Old_main_fayetteville.jpg" }, 
 
 		{ name: "University of California - Berkeley", 
 		  city: "Berkeley", 
@@ -4276,7 +4276,7 @@ namespace :import do
 		  average_hs_gpa: "3.86", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/2/28/Ucberkeley_tower.jpg" }, 
 
 		{ name: "University of California - Davis", 
 		  city: "Davis", 
@@ -4292,7 +4292,7 @@ namespace :import do
 		  average_hs_gpa: "3.99", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://www.alumnifactor.com/sites/default/files/styles/school/public/University_California_Davis_Ucdarc_book-ah.jpg?itok=RVp6z4jM" }, 
 
 		{ name: "University of California - Los Angeles", 
 		  city: "Los Angeles", 
@@ -4308,7 +4308,7 @@ namespace :import do
 		  average_hs_gpa: "4.29", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://uclaadmissions.files.wordpress.com/2011/05/image2_ed.jpg" }, 
 
 		{ name: "University of California - Riverside", 
 		  city: "Riverside", 
@@ -4324,7 +4324,7 @@ namespace :import do
 		  average_hs_gpa: "3.60", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/d/d6/UCR_Belltower_night.JPG" }, 
 
 		{ name: "University of California - San Diego", 
 		  city: "San Diego", 
@@ -4340,7 +4340,7 @@ namespace :import do
 		  average_hs_gpa: "4.00", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/4/4c/Price_Center,_UCSD.jpg" }, 
 
 		{ name: "University of California - Santa Barbara", 
 		  city: "Santa Barbara", 
@@ -4356,7 +4356,7 @@ namespace :import do
 		  average_hs_gpa: "3.91", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Ucsbuniversitycenterandstorketower.jpg/800px-Ucsbuniversitycenterandstorketower.jpg" }, 
 
 		{ name: "University of California - Santa Cruz", 
 		  city: "Santa Cruz", 
@@ -4372,7 +4372,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://thaarchitecture.com/wp-content/uploads/2012/10/UCSC-humanities-4.jpg" }, 
 
 		{ name: "University of Central Florida", 
 		  city: "Orlando", 
@@ -4388,7 +4388,7 @@ namespace :import do
 		  average_hs_gpa: "3.81", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/en/6/6b/UCF_HCEC.jpg" }, 
 
 		{ name: "The University of Chicago", 
 		  city: "Chicago", 
@@ -4404,7 +4404,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/1/1a/Harper_Midway_Chicago.jpg" }, 
 
 		{ name: "University of Cincinnati", 
 		  city: "Cincinnati", 
@@ -4420,7 +4420,7 @@ namespace :import do
 		  average_hs_gpa: "3.44", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.uc.edu/content/dam/common/images/free_images_web/Expans33.jpg" }, 
 
 		{ name: "University of Colorado - Boulder", 
 		  city: "Boulder", 
@@ -4436,7 +4436,7 @@ namespace :import do
 		  average_hs_gpa: "3.56", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://jupiter.schoolinks.com/img/adminImg/profile_logo_multiple/image%203-1381849312.jpg" }, 
 
 		{ name: "University of Connecticut", 
 		  city: "Storrs", 
@@ -4452,7 +4452,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://colin992.files.wordpress.com/2011/08/dsc_06761.jpg" }, 
 
 		{ name: "University of Dallas", 
 		  city: "Irving", 
@@ -4468,7 +4468,7 @@ namespace :import do
 		  average_hs_gpa: "3.65", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/University_of_Dallas_2.jpg" }, 
 
 		{ name: "University of Dayton", 
 		  city: "Dayton", 
@@ -4484,7 +4484,7 @@ namespace :import do
 		  average_hs_gpa: "3.59", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://www.udayton.edu/news/images/architecture/campus/aerial_600x400_10182011.jpg" }, 
 
 		{ name: "University of Delaware", 
 		  city: "Newark", 
@@ -4500,7 +4500,7 @@ namespace :import do
 		  average_hs_gpa: "3.78", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/8/84/UD_Fall_Time_2010.jpg" }, 
 
 		{ name: "University of Denver", 
 		  city: "Denver", 
@@ -4516,7 +4516,7 @@ namespace :import do
 		  average_hs_gpa: "3.67", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/7/78/University_of_Denver_campus_pics_003.jpg" }, 
 
 		{ name: "University of Florida", 
 		  city: "Gainesville", 
@@ -4532,7 +4532,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.huntonbrady.com/wp-content/uploads/UF-cancer-exterior1.jpg" }, 
 
 		{ name: "University of Georgia", 
 		  city: "Athens", 
@@ -4548,7 +4548,7 @@ namespace :import do
 		  average_hs_gpa: "3.86", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://www.uga.edu/images/sized/images/uploads/t-23664-001-474x316.jpg" }, 
 
 		{ name: "University of Hawaii - Manoa", 
 		  city: "Honolulu", 
@@ -4564,7 +4564,7 @@ namespace :import do
 		  average_hs_gpa: "3.46", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.hawaii.edu/security/rw_common/themes/photogenic/images/editable_images/securityBg.jpg" }, 
 
 		{ name: "University of Houston", 
 		  city: "Houston", 
@@ -4580,7 +4580,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://3ywb4u1ao5w18vy1q2nx25xo.wpengine.netdna-cdn.com/wp-content/uploads/2013/02/Ezekiel-W_-Cullen-Building-on-the-campus-of-the-University-of-Houston-Texas-United-States.jpg" }, 
 
 		{ name: "University of Idaho", 
 		  city: "Moscow", 
@@ -4596,7 +4596,7 @@ namespace :import do
 		  average_hs_gpa: "3.39", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/2/2c/University_of_Idaho_Administration_Building_-_north_side.jpg" }, 
 
 		{ name: "University of Illinois at Urbana-Champaign", 
 		  city: "Urbana", 
@@ -4612,7 +4612,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/en/5/56/IllinoisQuad.jpg" }, 
 
 		{ name: "The University of Iowa", 
 		  city: "Iowa City", 
@@ -4628,7 +4628,7 @@ namespace :import do
 		  average_hs_gpa: "3.61", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.divms.uiowa.edu/images/MLH-SH.jpg" }, 
 
 		{ name: "University of Kansas", 
 		  city: "Lawrence", 
@@ -4644,7 +4644,7 @@ namespace :import do
 		  average_hs_gpa: "3.50", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.greatvaluecolleges.net/wp-content/uploads/2014/07/university-of-kansas.jpg" }, 
 
 		{ name: "University of Kentucky", 
 		  city: "Lexington", 
@@ -4660,7 +4660,7 @@ namespace :import do
 		  average_hs_gpa: "3.46", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.natcom.org/uploadedImages/More_Scholarly_Resources/Doctoral_Program_Resource_Guide/UK%20Campus.jpg" }, 
 
 		{ name: "University of Louisiana at Lafayette", 
 		  city: "Lafayette", 
@@ -4676,7 +4676,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://www.louisianaalumni.org/piclib/m15.jpg" }, 
 
 		{ name: "University of Louisville", 
 		  city: "Louisville", 
@@ -4692,7 +4692,7 @@ namespace :import do
 		  average_hs_gpa: "3.53", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://static.squarespace.com/static/537a240de4b0e9e34581ea33/t/537a39d0e4b02080802e2397/1400519120103/University-of-Louisville.jpg" }, 
 
 		{ name: "University of Maine", 
 		  city: "Orono", 
@@ -4708,7 +4708,7 @@ namespace :import do
 		  average_hs_gpa: "3.22", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://pics4.city-data.com/cpicc/cfiles24306.jpg" }, 
 
 		{ name: "University of Mary Washington", 
 		  city: "Fredericksburg", 
@@ -4724,7 +4724,7 @@ namespace :import do
 		  average_hs_gpa: "3.51", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://eagleeye.umw.edu/files/2014/04/UMW_Trinkle_Hall.jpg" }, 
 
 		{ name: "University of Maryland - Baltimore County", 
 		  city: "Baltimore", 
@@ -4740,7 +4740,7 @@ namespace :import do
 		  average_hs_gpa: "3.71", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.umbc.edu/eli/images%20(photos)/Library.jpg" }, 
 
 		{ name: "University of Maryland - College Park", 
 		  city: "College Park", 
@@ -4756,7 +4756,7 @@ namespace :import do
 		  average_hs_gpa: "4.11", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://cvs.umd.edu/images/site/campuspicture.jpg" }, 
 
 		{ name: "University of Massachusetts Amherst", 
 		  city: "Amherst", 
@@ -4772,7 +4772,7 @@ namespace :import do
 		  average_hs_gpa: "3.73", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://media.worldbulletin.net/news/2015/02/18/umass2.jpg" }, 
 
 		{ name: "University of Miami", 
 		  city: "Coral Gables", 
@@ -4788,7 +4788,7 @@ namespace :import do
 		  average_hs_gpa: "4.20", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/3/3e/University_of_Miami_Otto_G._Richter_Library.jpg" }, 
 
 		{ name: "University of Michigan - Ann Arbor", 
 		  city: "Ann Arbor", 
@@ -4804,7 +4804,7 @@ namespace :import do
 		  average_hs_gpa: "3.82", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://static.vroomgirls.com/website/wp-content/uploads/2012/09/University-of-Michigan.jpg" }, 
 
 		{ name: "University of Minnesota - Twin Cities", 
 		  city: "Minneapolis", 
@@ -4820,7 +4820,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.onlinepsychologydegree.info/wp-content/uploads/2015/01/University_Minnesota-book-ah.jpg" }, 
 
 		{ name: "University of Mississippi", 
 		  city: "University", 
@@ -4836,7 +4836,7 @@ namespace :import do
 		  average_hs_gpa: "3.46", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.olemiss.edu/depts/landscape/_images/index1.jpg" }, 
 
 		{ name: "University of Missouri", 
 		  city: "Columbia", 
@@ -4852,7 +4852,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://blogs.iesabroad.org/wp-content/uploads/2009/05/hawaii-010.jpg" }, 
 
 		{ name: "The University of Montana - Missoula", 
 		  city: "Missoula", 
@@ -4868,7 +4868,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://52wednesdays.com/wp-content/uploads/2012/12/U-of-Montana-Campus-Missoula-MT-with-the-M-trail-in-background-2.jpg" }, 
 
 		{ name: "University of Nebraska - Lincoln", 
 		  city: "Lincoln", 
@@ -4884,7 +4884,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://research.unl.edu/wp-content/uploads/2013/10/111024_Autumn_018-1024x658.jpg" }, 
 
 		{ name: "University of New Mexico", 
 		  city: "Albuquerque", 
@@ -4900,7 +4900,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://coesterphotography.com/wp-content/uploads/galleries/post-52/full/UNM%20Pit%20w%20%2001web.jpg" }, 
 
 		{ name: "University of New Orleans", 
 		  city: "New Orleans", 
@@ -4916,7 +4916,7 @@ namespace :import do
 		  average_hs_gpa: "3.21", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/8/83/UNO_University_Center_Front.JPG" }, 
 
 		{ name: "The University of North Carolina at Asheville", 
 		  city: "Asheville", 
@@ -4932,7 +4932,7 @@ namespace :import do
 		  average_hs_gpa: "3.98", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://transition.unca.edu/sites/default/files/images/fall_tree.jpg" }, 
 
 		{ name: "The University of North Carolina at Chapel Hill", 
 		  city: "Chapel Hill", 
@@ -4948,7 +4948,7 @@ namespace :import do
 		  average_hs_gpa: "4.56", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://internationallife.files.wordpress.com/2008/06/old-well-005.jpg" }, 
 
 		{ name: "The University of North Carolina at Greensboro", 
 		  city: "Greensboro", 
@@ -4964,7 +4964,7 @@ namespace :import do
 		  average_hs_gpa: "3.64", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://old.northcarolina.edu/campus_profiles/img/profiles/uncg/uncg-1.jpg" }, 
 
 		{ name: "The University of North Dakota", 
 		  city: "Grand Forks", 
@@ -4980,7 +4980,7 @@ namespace :import do
 		  average_hs_gpa: "3.33", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/4/46/UND_Merrifield_Hall.JPG" }, 
 
 		{ name: "University of Notre Dame", 
 		  city: "Notre Dame", 
@@ -4996,7 +4996,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://indianapublicmedia.org/news/files/2011/09/Notre-Dame.jpg" }, 
 
 		{ name: "University of Oklahoma", 
 		  city: "Norman", 
@@ -5012,7 +5012,7 @@ namespace :import do
 		  average_hs_gpa: "3.59", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/2/24/OU_Bizzell_Library.jpg" }, 
 
 		{ name: "University of Oregon", 
 		  city: "Eugene", 
@@ -5028,7 +5028,7 @@ namespace :import do
 		  average_hs_gpa: "3.60", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://raineugene.org/site/content/uploads/2014/12/uo-fall.jpg" }, 
 
 		{ name: "University of the Pacific", 
 		  city: "Stockton", 
@@ -5044,7 +5044,7 @@ namespace :import do
 		  average_hs_gpa: "3.47", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.pacific.edu/Images/administration/sustainability/Stockton%20Campus.jpg" }, 
 
 		{ name: "University of Pennsylvania", 
 		  city: "Philadelphia", 
@@ -5060,7 +5060,7 @@ namespace :import do
 		  average_hs_gpa: "3.91", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/e/e7/UQG.jpg" }, 
 
 		{ name: "University of Pittsburgh - Pittsburgh Campus", 
 		  city: "Pittsburgh", 
@@ -5076,7 +5076,7 @@ namespace :import do
 		  average_hs_gpa: "3.97", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.g20.pitt.edu/images/PIX/full/1.jpg" }, 
 
 		{ name: "University of Puget Sound", 
 		  city: "Tacoma", 
@@ -5092,7 +5092,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.campusexplorer.com/media/560x420/University-of-Puget-Sound-835DD3D2.jpg" }, 
 
 		{ name: "University of Redlands", 
 		  city: "Redlands", 
@@ -5108,7 +5108,7 @@ namespace :import do
 		  average_hs_gpa: "3.66", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/d/d8/University_of_Redlands_Administration_Building.JPG" }, 
 
 		{ name: "University of Rhode Island", 
 		  city: "Kingston", 
@@ -5124,7 +5124,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.campusexplorer.com/media/560x420/University-of-Rhode-Island-A2E017B5.jpg" }, 
 
 		{ name: "University of Richmond", 
 		  city: "Richmond", 
@@ -5140,7 +5140,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://architecturerichmond.files.wordpress.com/2012/07/img_4893.jpg" }, 
 
 		{ name: "University of Rochester", 
 		  city: "Rochester", 
@@ -5156,7 +5156,7 @@ namespace :import do
 		  average_hs_gpa: "3.80", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.rochester.edu/libraries/images/rush-rhees.jpg" }, 
 
 		{ name: "University of San Diego", 
 		  city: "San Diego", 
@@ -5172,7 +5172,7 @@ namespace :import do
 		  average_hs_gpa: "3.88", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.sandiego.edu/admissions/virtualtour/images/buildings/hughes_admin_center/landing_hughes_admin.jpg" }, 
 
 		{ name: "University of San Francisco", 
 		  city: "San Francisco", 
@@ -5188,7 +5188,7 @@ namespace :import do
 		  average_hs_gpa: "3.61", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://colleges.usnews.rankingsandreviews.com/img/college-photo_1185..jpg" }, 
 
 		{ name: "University of Scranton", 
 		  city: "Scranton", 
@@ -5204,7 +5204,7 @@ namespace :import do
 		  average_hs_gpa: "3.37", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://admissions.scranton.edu/visit/_images/Visit%20Photos/oh-banner.jpg" }, 
 
 		{ name: "University of South Carolina - Columbia", 
 		  city: "Columbia", 
@@ -5220,7 +5220,7 @@ namespace :import do
 		  average_hs_gpa: "4.00", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://giving.sc.edu/UserFiles/BusinessUnits/44/25-USC%20Columbia.jpg" }, 
 
 		{ name: "The University of South Dakota", 
 		  city: "Vermillion", 
@@ -5236,7 +5236,7 @@ namespace :import do
 		  average_hs_gpa: "3.36", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/e/e8/Old_Main,_University_of_South_Dakota.jpg" }, 
 
 		{ name: "University of South Florida", 
 		  city: "Tampa", 
@@ -5252,7 +5252,7 @@ namespace :import do
 		  average_hs_gpa: "3.86", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.natcom.org/uploadedImages/More_Scholarly_Resources/Doctoral_Program_Resource_Guide/USF%20Campus.jpg" }, 
 
 		{ name: "University of Southern California", 
 		  city: "Los Angeles", 
@@ -5268,7 +5268,7 @@ namespace :import do
 		  average_hs_gpa: "3.73", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/8/83/Doheny.jpg" }, 
 
 		{ name: "The University of Tampa", 
 		  city: "Tampa", 
@@ -5284,7 +5284,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.ut.edu/uploadedImages/_Site_Root/_Banner_Galleries/Academics/PH_jan09_5BIG.jpg" }, 
 
 		{ name: "The University of Tennessee at Knoxville", 
 		  city: "Knoxville", 
@@ -5300,7 +5300,7 @@ namespace :import do
 		  average_hs_gpa: "3.85", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://transfer.utk.edu/images/warmers/aryes.jpg" }, 
 
 		{ name: "The University of Texas at Austin", 
 		  city: "Austin", 
@@ -5316,7 +5316,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://s3.amazonaws.com/static.texastribune.org/media/images/College-1_jpg_800x1000_q100.jpg" }, 
 
 		{ name: "The University of Texas at Dallas", 
 		  city: "Richardson", 
@@ -5332,7 +5332,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/0/0b/UT_Dallas_Student_Service_Building.JPG" }, 
 
 		{ name: "The University of Toronto", 
 		  city: "Toronto", 
@@ -5348,7 +5348,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "unavailable", 
-		  image_url: "" }, 
+		  image_url: "The University of Toronto" }, 
 
 		{ name: "The University of Tulsa", 
 		  city: "Tulsa", 
@@ -5364,7 +5364,7 @@ namespace :import do
 		  average_hs_gpa: "3.80", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://grfx.cstv.com/confs/c-usa/graphics/tuls-school-photo.jpg" }, 
 
 		{ name: "University of Utah", 
 		  city: "Salt Lake City", 
@@ -5380,7 +5380,7 @@ namespace :import do
 		  average_hs_gpa: "3.55", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://unews.utah.edu/wp-content/uploads/Park-Building.jpg" }, 
 
 		{ name: "The University of Vermont", 
 		  city: "Burlington", 
@@ -5396,7 +5396,7 @@ namespace :import do
 		  average_hs_gpa: "3.48", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://vermontbiz.com/files/uvm_campus-2012_photo_credit_sally_mccay_uvm_photo-w1200_2.jpg" }, 
 
 		{ name: "University of Virginia", 
 		  city: "Charlottesville", 
@@ -5412,7 +5412,7 @@ namespace :import do
 		  average_hs_gpa: "4.22", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/2/23/UVA_Rotunda.jpg" }, 
 
 		{ name: "University of Washington", 
 		  city: "Seattle", 
@@ -5428,7 +5428,7 @@ namespace :import do
 		  average_hs_gpa: "3.75", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.natcom.org/uploadedImages/More_Scholarly_Resources/Doctoral_Program_Resource_Guide/UW%20Campus.jpg" }, 
 
 		{ name: "University of Wisconsin - Madison", 
 		  city: "Madison", 
@@ -5444,7 +5444,7 @@ namespace :import do
 		  average_hs_gpa: "3.81", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://bloximages.chicago2.vip.townnews.com/host.madison.com/content/tncms/assets/v3/editorial/5/98/59837743-03a2-5ced-8fbb-2cabad683e6b/534308f7cd97f.preview-699.jpg" }, 
 
 		{ name: "University of Wyoming", 
 		  city: "Laramie", 
@@ -5460,7 +5460,7 @@ namespace :import do
 		  average_hs_gpa: "3.48", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://mediad.publicbroadcasting.net/p/wpr/files/201408/Old_Main_University_of_Wyoming_September_2012.JPG" }, 
 
 		{ name: "Ursinus College", 
 		  city: "Collegeville", 
@@ -5476,7 +5476,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://howibecametexan.com/wp-content/uploads/2013/02/img_3109.jpg?w=490" }, 
 
 		{ name: "Vanderbilt University", 
 		  city: "Nashville", 
