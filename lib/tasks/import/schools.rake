@@ -436,7 +436,7 @@ namespace :import do
 		  average_hs_gpa: "3.69", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" },
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/5d/Bradley_University_Bradley_Hall.jpg" },
 
 		{ name: "Brandeis University", 
 		  city: "Waltham", 
@@ -452,7 +452,7 @@ namespace :import do
 		  average_hs_gpa: "3.87", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/5d/Bradley_University_Bradley_Hall.jpg" },
+		  image_url: "http://legalinsurrection.com/wp-content/uploads/2013/12/Brandeis-University-Sign.jpg" },
 
 		{ name: "Brigham Young University", 
 		  city: "Provo", 
@@ -868,7 +868,7 @@ namespace :import do
 		  average_hs_gpa: "4.18", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://www.insidehighered.com/sites/default/server_files/media/tillman_hall.jpg" }, 
 
 		{ name: "Coe College", 
 		  city: "Cedar Rapids", 
@@ -5492,7 +5492,7 @@ namespace :import do
 		  average_hs_gpa: "3.75", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://admissions.vanderbilt.edu/images/Campus_Fall.jpg" }, 
 
 		{ name: "Vassar College", 
 		  city: "Poughkeepsie", 
@@ -5508,7 +5508,7 @@ namespace :import do
 		  average_hs_gpa: "3.80", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/56/Thompson_Library_(Vassar_College).jpg" }, 
 
 		{ name: "Villanova University", 
 		  city: "Villanova", 
@@ -5524,7 +5524,7 @@ namespace :import do
 		  average_hs_gpa: "3.86", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://philadelphiaencyclopedia.org/wp-content/uploads/2014/04/St.-Thomas-of-Villanova-Church-on-the-campus-of-Villanova-University.jpg" }, 
 
 		{ name: "Virginia Tech University", 
 		  city: "Blacksburg", 
@@ -5540,7 +5540,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/0/0b/Burruss_Hall,_Virginia_Tech.JPG" }, 
 
 		{ name: "Virginia Wesleyan College", 
 		  city: "Norfolk/Virginia Beach", 
@@ -5556,7 +5556,7 @@ namespace :import do
 		  average_hs_gpa: "3.32", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.ksba.com/images/made/fleming-1_960_640_s_c1.jpg" }, 
 
 		{ name: "Wabash College", 
 		  city: "Crawfordsville", 
@@ -5572,7 +5572,7 @@ namespace :import do
 		  average_hs_gpa: "3.67", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.ctcl.org/sites/default/files/wabash11.jpg" }, 
 
 		{ name: "Wagner College", 
 		  city: "Staten Island", 
@@ -5588,7 +5588,7 @@ namespace :import do
 		  average_hs_gpa: "89.10/100", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://media.silive.com/the_staten_island_guide/photo/colleges-wagner-college-campus-ivy-main-hall-guidejpg-6170af3d84848f46.jpg" }, 
 
 		{ name: "Wake Forest University", 
 		  city: "Winston Salem", 
@@ -5604,7 +5604,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.wakeforestinnovations.com/wp-content/uploads/2013/01/AP1102.jpg" }, 
 
 		{ name: "Warren Wilson College", 
 		  city: "Asheville", 
@@ -5620,7 +5620,7 @@ namespace :import do
 		  average_hs_gpa: "3.50", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://gbdmagazine.com/wp-content/uploads/2012/12/EcoDormAerial.jpg" }, 
 
 		{ name: "Washington College", 
 		  city: "Chestertown", 
@@ -5636,7 +5636,7 @@ namespace :import do
 		  average_hs_gpa: "3.53", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "https://unigo.blob.core.windows.net/media/privateassets/0/378524/378528/379670/ef5cf9c7-b6da-427f-a58b-455b400bb048.jpg" }, 
 
 		{ name: "Washington & Jefferson College", 
 		  city: "Washington", 
@@ -5652,7 +5652,7 @@ namespace :import do
 		  average_hs_gpa: "3.33", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.washjeff.edu/stuff/contentmgr/files/0/7748e9e36bf156648a52109d143e0957/catalog/oldmain_20080529_103.jpg" }, 
 
 		{ name: "Washington State University", 
 		  city: "Pullman", 
@@ -5668,7 +5668,7 @@ namespace :import do
 		  average_hs_gpa: "3.29", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/5/59/WSU_Thompson_hall.jpg" }, 
 
 		{ name: "Washington University in St. Louis", 
 		  city: "St. Louis", 
@@ -5684,7 +5684,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://rbrua3v80lj2rulsf7iqfnpmf.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/Brookings.jpg" }, 
 
 		{ name: "Webb Institute", 
 		  city: "Glen Cove", 
@@ -5700,7 +5700,7 @@ namespace :import do
 		  average_hs_gpa: "3.90", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://m5.i.pbase.com/g1/21/3121/2/92337705.CYlSfiGc.jpg" }, 
 
 		{ name: "Wells College", 
 		  city: "Aurora", 
@@ -5716,7 +5716,7 @@ namespace :import do
 		  average_hs_gpa: "3.50", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.wells.edu/images/news/archive/zabriskie3.jpg" }, 
 
 		{ name: "Wellesley College", 
 		  city: "Wellesley", 
@@ -5732,7 +5732,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/4/4b/Wellesley_College_Tower_Court.jpg" }, 
 
 		{ name: "Wesleyan College (GA)", 
 		  city: "Macon", 
@@ -5748,7 +5748,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://static.panoramio.com/photos/large/44612190.jpg" }, 
 
 		{ name: "Wesleyan University (CT)", 
 		  city: "Middletown", 
@@ -5764,7 +5764,7 @@ namespace :import do
 		  average_hs_gpa: "3.76", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/d/d5/Wesleyan_University_Middletown_CT.jpg" }, 
 
 		{ name: "West Virginia University", 
 		  city: "Morgantown", 
@@ -5780,7 +5780,7 @@ namespace :import do
 		  average_hs_gpa: "3.40", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodburn_hall_wvu.jpg/800px-Woodburn_hall_wvu.jpg" }, 
 
 		{ name: "Westminster College (PA)", 
 		  city: "New Wilmington", 
@@ -5796,7 +5796,7 @@ namespace :import do
 		  average_hs_gpa: "3.40", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://ascribehq.com/assets/photos/mlarge/3a6f56005a825264d896fc05b43805ebbf87e8fa.jpg" }, 
 
 		{ name: "Westminster College (UT)", 
 		  city: "Salt Lake City", 
@@ -5812,7 +5812,7 @@ namespace :import do
 		  average_hs_gpa: "3.53", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://en.people.cn/mediafile/200901/20/P200901201630202145924431.jpg" }, 
 
 		{ name: "Wheaton College (IL)", 
 		  city: "Wheaton", 
@@ -5828,7 +5828,7 @@ namespace :import do
 		  average_hs_gpa: "3.71", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "https://colleges.niche.com/images/standard/1676/?v=9c4cb0e" }, 
 
 		{ name: "Wheaton College (MA)", 
 		  city: "Norton", 
@@ -5844,7 +5844,7 @@ namespace :import do
 		  average_hs_gpa: "3.30", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://wheatoncollege.edu/finance/files/2010/12/Picture-005.jpg" }, 
 
 		{ name: "Whitman College", 
 		  city: "Walla Walla", 
@@ -5860,7 +5860,7 @@ namespace :import do
 		  average_hs_gpa: "3.74", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/b/be/Memorial_Building_Whitman_College.jpg" }, 
 
 		{ name: "Whittier College", 
 		  city: "Whittier", 
@@ -5876,7 +5876,7 @@ namespace :import do
 		  average_hs_gpa: "3.47", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.whittier.edu/sites/default/files/media/offices/residence_life/Turner%20Hall/Turner%20Hall.jpg" }, 
 
 		{ name: "Willamette University", 
 		  city: "Salem", 
@@ -5892,7 +5892,7 @@ namespace :import do
 		  average_hs_gpa: "3.69", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/f/fb/Eaton_Hall_Willamette_University_from_northwest.JPG" }, 
 
 		{ name: "William Jewell College", 
 		  city: "Liberty", 
@@ -5908,7 +5908,7 @@ namespace :import do
 		  average_hs_gpa: "3.69", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www.meridix.com/mbp/login/venue_images/210336Ely_hall.jpg" }, 
 
 		{ name: "Williams College", 
 		  city: "Williamstown", 
@@ -5924,7 +5924,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/3/3f/Williams_College_-_Thompson_Memorial_Chapel_exterior_view.JPG" }, 
 
 		{ name: "Wittenberg University", 
 		  city: "Springfield", 
@@ -5940,7 +5940,7 @@ namespace :import do
 		  average_hs_gpa: "3.43", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://www5.wittenberg.edu/sites/default/files/media/news/2013/Wittenberg1.jpg" }, 
 
 		{ name: "Wofford College", 
 		  city: "Spartanburg", 
@@ -5956,7 +5956,7 @@ namespace :import do
 		  average_hs_gpa: "3.54", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://prod.static.panthers.clubs.nfl.com/assets/images/schedule/wofford_college.jpg" }, 
 
 		{ name: "Worcester Polytechnic Institute", 
 		  city: "Worcester", 
@@ -5972,7 +5972,7 @@ namespace :import do
 		  average_hs_gpa: "3.85", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://upload.wikimedia.org/wikipedia/commons/c/c4/WPI_Alden_Memorial.JPG" }, 
 
 		{ name: "Xavier University of Louisiana", 
 		  city: "New Orleans", 
@@ -5988,7 +5988,7 @@ namespace :import do
 		  average_hs_gpa: "3.33", 
 		  superscore_sat: "no", 
 		  superscore_act: "no", 
-		  image_url: "" }, 
+		  image_url: "http://go.rollingout.com/wp-content/uploads/2014/07/xula4.jpg" }, 
 
 		{ name: "Xavier University (OH)", 
 		  city: "Cincinnati", 
@@ -6004,7 +6004,7 @@ namespace :import do
 		  average_hs_gpa: "3.62", 
 		  superscore_sat: "yes", 
 		  superscore_act: "yes", 
-		  image_url: "" }, 
+		  image_url: "http://www.xavier.edu/mission-identity/heartland-delta/images/Xavier_University.jpg" }, 
 
 		{ name: "Yale University", 
 		  city: "New Haven", 
@@ -6020,7 +6020,7 @@ namespace :import do
 		  average_hs_gpa: "unavailable", 
 		  superscore_sat: "yes", 
 		  superscore_act: "no", 
-		  image_url: "" }
+		  image_url: "http://admissions.yale.edu/sites/default/files/CampusSMLOPA%20resized.jpg?1282674228" }
 
 		]
 
