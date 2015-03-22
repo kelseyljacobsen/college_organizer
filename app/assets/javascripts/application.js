@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require homepage
+//= require profile
 //= require_tree .
 

@@ -18,7 +18,6 @@ class ApplicationController < ActionController::Base
 
   # only allows access to app when user has signed up and signed in
   def authorize
-    flash[:info] = "You must be logged in to view the schools."
   	redirect_to root_path unless current_user
   end 
 

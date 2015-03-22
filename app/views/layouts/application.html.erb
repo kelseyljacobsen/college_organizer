@@ -31,7 +31,9 @@
 		    <div class="topnav">
 		      <ul class="nav navbar-nav">
 		        <li class="active"><a href="/profile">My College List<span class="sr-only">(current)</span></a></li>
+		        <%if current_user %>
 		        <li><a href="/schools">View All Schools</a></li>
+		        <% end %>
 		        <li><a href="#myModal2" data-toggle="modal" data-target="#myModal2">About the App</a></li>
 		        <li><a href="#myModal3" data-toggle="modal" data-target="#myModal3">List Definitions</a></li>
 		      </ul>
